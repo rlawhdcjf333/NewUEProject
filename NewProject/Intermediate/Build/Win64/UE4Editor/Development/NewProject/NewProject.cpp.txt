@@ -1,0 +1,2 @@
+C:\UE4\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\Definitions.NewProject.h
+C:\UE4\NewProject\Source\NewProject\NewProject.h
