@@ -1,0 +1,1571 @@
+﻿Log file open, 05/04/21 09:05:14
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: NewProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.817976
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/김종철/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 4600H with Radeon Graphics         , GPU: AMD Radeon(TM) Graphics
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.05.04-00.05.16:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:073][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:091][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.04-00.05.16:091][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.05.04-00.05.16:092][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.05.04-00.05.16:092][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.04-00.05.16:093][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.04-00.05.16:093][  0]LogHAL: Display: Platform has ~ 16 GB [16558469120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.04-00.05.16:093][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.04-00.05.16:093][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.04-00.05.16:093][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.05.04-00.05.16:094][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.04-00.05.16:095][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.04-00.05.16:095][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.04-00.05.16:095][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.04-00.05.16:095][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.04-00.05.16:095][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Editor.ini]
+[2021.05.04-00.05.16:096][  0]LogInit: Computer: JC
+[2021.05.04-00.05.16:096][  0]LogInit: User: 김종철
+[2021.05.04-00.05.16:096][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.05.04-00.05.16:096][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.04-00.05.16:096][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2021.05.04-00.05.16:096][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.04-00.05.16:096][  0]LogMemory: Process Physical Memory: 131.29 MB used, 131.29 MB peak
+[2021.05.04-00.05.16:096][  0]LogMemory: Process Virtual Memory: 110.35 MB used, 110.35 MB peak
+[2021.05.04-00.05.16:096][  0]LogMemory: Physical Memory: 4944.02 MB used,  10847.37 MB free, 15791.39 MB total
+[2021.05.04-00.05.16:096][  0]LogMemory: Virtual Memory: 134207240.00 MB used,  10491.07 MB free, 134217728.00 MB total
+[2021.05.04-00.05.16:106][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.04-00.05.16:281][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.04-00.05.16:283][  0]LogInit: Using OS detected language (ko-KR).
+[2021.05.04-00.05.16:283][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.05.04-00.05.16:293][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.05.04-00.05.16:516][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.04-00.05.16:574][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.05.04-00.05.16:665][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.04-00.05.16:665][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.04-00.05.21:115][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.04-00.05.21:115][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.04-00.05.21:115][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.04-00.05.21:115][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.04-00.05.22:163][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 Ti' (Feature Level 11_0)
+[2021.05.04-00.05.22:163][  0]LogD3D11RHI:       3962/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.04-00.05.22:207][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2021.05.04-00.05.22:208][  0]LogD3D11RHI:       496/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2021.05.04-00.05.22:210][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.04-00.05.22:210][  0]LogD3D11RHI:       0/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.04-00.05.22:210][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.04-00.05.22:218][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.04-00.05.22:218][  0]LogD3D11RHI:     GPU DeviceId: 0x1f95 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.04-00.05.22:218][  0]LogWindows: EnumDisplayDevices:
+[2021.05.04-00.05.22:218][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2021.05.04-00.05.22:220][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2021.05.04-00.05.22:221][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2021.05.04-00.05.22:222][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2021.05.04-00.05.22:223][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.04-00.05.22:224][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.04-00.05.22:225][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.04-00.05.22:225][  0]LogWindows:    7. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.04-00.05.22:226][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.05.04-00.05.22:226][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 Ti
+[2021.05.04-00.05.22:226][  0]LogD3D11RHI:   Driver Version: 466.11 (internal:27.21.14.6611, unified:466.11)
+[2021.05.04-00.05.22:226][  0]LogD3D11RHI:      Driver Date: 4-12-2021
+[2021.05.04-00.05.22:226][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2021.05.04-00.05.22:312][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.04-00.05.22:312][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.04-00.05.22:312][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.04-00.05.22:367][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.04-00.05.22:371][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.05.04-00.05.23:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.04-00.05.23:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.04-00.05.23:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.04-00.05.23:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.04-00.05.23:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.04-00.05.23:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.04-00.05.23:080][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.04-00.05.23:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.04-00.05.23:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.04-00.05.23:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.04-00.05.23:127][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.04-00.05.23:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.04-00.05.23:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.04-00.05.23:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.04-00.05.23:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.04-00.05.23:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.05.04-00.05.23:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.05.04-00.05.23:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.05.04-00.05.23:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.05.04-00.05.23:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.04-00.05.23:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.04-00.05.23:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.04-00.05.23:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.04-00.05.23:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.04-00.05.23:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.04-00.05.23:307][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.04-00.05.23:326][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.04-00.05.23:498][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.05.04-00.05.23:498][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../UE4/NewUEProject/NewProject/Intermediate/Shaders/WorkingDirectory/18124/).
+[2021.05.04-00.05.23:499][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/김종철/AppData/Local/Temp/UnrealShaderWorkingDir/CF8DABA54EE683795EAD49A90CCC2F71/'.
+[2021.05.04-00.05.23:499][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.04-00.05.23:499][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.04-00.05.27:591][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.04-00.05.27:672][  0]LogDerivedDataCache: Loaded boot cache 0.08s 85MB C:/Users/김종철/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.05.04-00.05.27:672][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/김종철/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.05.04-00.05.27:672][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE4/NewUEProject/NewProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.04-00.05.27:672][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.04-00.05.27:672][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE4/NewUEProject/NewProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.04-00.05.27:672][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.04-00.05.27:686][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.04-00.05.27:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.04-00.05.27:686][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.04-00.05.27:702][  0]LogDerivedDataCache: Speed tests for C:/Users/김종철/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2021.05.04-00.05.27:703][  0]LogDerivedDataCache: Display: Performance to C:/Users/김종철/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.12ms. RandomReadSpeed=113.14MBs, RandomWriteSpeed=134.36MBs. Assigned SpeedClass 'Local'
+[2021.05.04-00.05.27:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/김종철/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.04-00.05.27:703][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.04-00.05.27:703][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.04-00.05.27:752][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.04-00.05.27:764][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.04-00.05.27:804][  0]LogAssetRegistry: FAssetRegistry took 0.0053 seconds to start up
+[2021.05.04-00.05.28:088][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.04-00.05.28:089][  0]LogInit: Active device profile: [000001BF2CE03600][000001BF20017640 49] Windows
+[2021.05.04-00.05.28:089][  0]LogInit: Profiles: [000001BF2CE03600][000001BF20017640 49] Windows, [000001BF2CDFCB00][000001BF2001B780 49] WindowsNoEditor, [000001BF2CE00C00][000001BF2001F8C0 49] WindowsServer, [000001BF2CDFEF00][000001BF20027A40 49] WindowsClient, [000001BF2CE02E00][000001BF2002BBC0 49] IOS, [000001BF2CDFD400][000001BF2002FD40 49] iPadAir, [000001BF2CE01300][000001BF2C820200 49] iPadAir2, [000001BF2CDBCA00][000001BF2C8284C0 49] IPadPro, [000001BF2CDBCB00][000001BF2C824500 49] iPadAir3, [000001BF2CE02900][000001BF2C82C680 49] iPadAir4, [000001BF2CDBF800][000001BF2C830800 49] iPadMini2, [000001BF2CE01700][000001BF2C834980 49] iPadMini3, [000001BF2CDBE000][000001BF2C838B00 49] iPadMini4, [000001BF2CE03800][000001BF2C83CC80 49] iPadMini5, [000001BF2CDFC800][000001BF2C844F40 49] iPhone6, [000001BF2CDFFA00][000001BF2C840F80 49] iPodTouch6, [000001BF2CDBE400][000001BF2C84D240 49] iPhone7, [000001BF2CDBE300][000001BF2C849280 49] iPodTouch7, [000001BF2CDFF900][000001BF2D9F7400 49] iPhone5S, [000001BF2CDBEE00][000001BF2D9FB580 49] iPhone6Plus, [000001BF2CDFF800][000001BF200236C0 49] iPhone6S, [000001BF2CDBEF00][000001BF2D9FF800 49] iPhone6SPlus, [000001BF2CDFDE00][000001BF2DA03940 49] iPhone7Plus, [000001BF2CDBD600][000001BF2DA0BAC0 49] iPhoneSE, [000001BF2CDFCF00][000001BF2DA0FC40 49] iPhone8, [000001BF2CDBFB00][000001BF2DA12100 49] iPhone8Plus, [000001BF2CDFE200][000001BF2DA16280 49] iPhoneX, [000001BF2CDBDF00][000001BF2DA2C400 49] iPhoneXS, [000001BF2CDFEC00][000001BF2DA30580 49] iPhoneXSMax, [000001BF2CDBD500][000001BF2DA4C700 49] iPhoneXR, [000001BF2CDFCC00][000001BF2DA58880 49] iPhone11, [000001BF2CDBC900][000001BF2DA60A00 49] iPhone11Pro, [000001BF2CDFC400][000001BF2DA64B80 49] iPhone11ProMax, [000001BF2CDBF000][000001BF2DA68D00 49] iPhoneSE2, [000001BF2CDFC300][000001BF2DA78E80 49] iPhone12Mini, [000001BF2CDBCC00][000001BF2DA7D000 49] iPhone12, [000001BF2CDFFF00][000001BF2DA81180 49] iPhone12Pro, [000001BF2CDBF900][000001BF2DA85300 49] iPhone12ProMax, [000001BF2CDFDD00][000001BF2DA8D480 49] iPadPro105, [000001BF2CDBF700][000001BF2DA95600 49] iPadPro129, [000001BF2CDFF600][000001BF2DA07740 49] iPadPro97, [000001BF2CDBC500][000001BF2DAA1880 49] iPadPro2_129, [000001BF2CDFFC00][000001BF2DAA59C0 49] iPad5, [000001BF2CDBFE00][000001BF2DAB9B40 49] iPad6, [000001BF2CDFD000][000001BF2DABDCC0 49] iPad7, [000001BF2CDBF200][000001BF2DAC0180 49] iPad8, [000001BF2CDFE100][000001BF2DAC4300 49] iPadPro11, [000001BF2CDBDA00][000001BF2DAC8480 49] iPadPro2_11, [000001BF2CDFC700][000001BF2DACC600 49] iPadPro3_129, [000001BF2CDBED00][000001BF2DAD0780 49] iPadPro4_129, [000001BF2CDFDA00][000001BF2DAEC900 49] AppleTV, [000001BF2CDBFC00][000001BF2DAF0A80 49] AppleTV4K, [000001BF2CDFF500][000001BF2DAF4C00 49] TVOS, [000001BF2CDBC400][000001BF2DAF8D80 49] Mac, [000001BF2CDFED00][000001BF2DAFCF00 49] MacClient, [000001BF2CDBF500][000001BF2DB01080 49] MacNoEditor, [000001BF2CDFE400][000001BF2DB25200 49] MacServer, [000001BF2CDBC300][000001BF2DB29380 49] Linux, [000001BF2CE00900][000001BF2DB2D500 49] LinuxAArch64, [000001BF2CE89A00][000001BF2DB31680 49] LinuxNoEditor, [000001BF2CE03700][000001BF2DAB57C0 49] LinuxAArch64NoEditor, [000001BF2CE89500][000001BF2DB35900 49] LinuxClient, [000001BF2CE00700][000001BF2DB39A40 49] LinuxAArch64Client, [000001BF2CE88400][000001BF2DB3DB80 49] LinuxServer, [000001BF2CE03E00][000001BF2DB45D00 49] LinuxAArch64Server, [000001BF2CE89600][000001BF2DB481C0 49] Android, [000001BF2CE01400][000001BF2DB78340 49] Android_Low, [000001BF2CE88200][000001BF2DB7C4C0 49] Android_Mid, [000001BF2CE01E00][000001BF2DB80640 49] Android_High, [000001BF2CE88600][000001BF2DB847C0 49] Android_Default, [000001BF2CE02100][000001BF2DB88940 49] Android_Adreno4xx, [000001BF2CE88300][000001BF2DB8CAC0 49] Android_Adreno5xx_Low, [000001BF2CE00400][000001BF2DB90C40 49] Android_Adreno5xx, [000001BF2CE88900][000001BF2DB94DC0 49] Android_Adreno6xx, [000001BF2CDBEB00][000001BF2DB98F40 49] Android_Adreno6xx_Vulkan, [000001BF2CDFF100][000001BF2DB9D0C0 49] Android_Mali_T6xx, [000001BF2CDBF400][000001BF2DBA1240 49] Android_Mali_T7xx, [000001BF2CDFDB00][000001BF2DBA53C0 49] Android_Mali_T8xx, [000001BF2CDBDE00][000001BF2DBA9540 49] Android_Mali_G71, [000001BF2CDFFB00][000001BF2DBAD6C0 49] Android_Mali_G72, [000001BF2CDBDC00][000001BF2DB41800 49] Android_Mali_G72_Vulkan, [000001BF2CDFC100][000001BF2DBB1940 49] Android_Mali_G76, [000001BF2CDBDB00][000001BF2DBB5A80 49] Android_Mali_G76_Vulkan, [000001BF2CDFCD00][000001BF2DBB9BC0 49] Android_Mali_G77, [000001BF2CDBD000][000001BF2DBC1D40 49] Android_Mali_G77_Vulkan, [000001BF2CDFD500][000001BF2DBC4200 49] Android_Vulkan_SM5, [000001BF2CDBF600][000001BF2DBC8380 49] Android_PowerVR_G6xxx, [000001BF2CDFE900][000001BF2DBCC500 49] Android_PowerVR_GT7xxx, [000001BF2CDBDD00][000001BF2DBD0680 49] Android_PowerVR_GE8xxx, [000001BF2CDFCA00][000001BF2DBD4800 49] Android_PowerVR_GM9xxx, [000001BF2CDBD200][000001BF2DBD8980 49] Android_PowerVR_GM9xxx_Vulkan, [000001BF2CE88B00][000001BF2DBDCB00 49] Android_TegraK1, [000001BF2CDBFD00][000001BF2DBE0C80 49] Android_Unknown_Vulkan, [000001BF2CE89800][000001BF2DBE4E00 49] Lumin, [000001BF2CDBE500][000001BF2DBE8F80 49] Lumin_Desktop, [000001BF2CE89D00][000001BF2DBED100 49] HoloLens, 
+[2021.05.04-00.05.28:200][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.04-00.05.28:200][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.04-00.05.28:200][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.04-00.05.28:200][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.04-00.05.28:200][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.04-00.05.28:303][  0]LogNetVersion: NewProject 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 234518131)
+[2021.05.04-00.05.29:057][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.05.04-00.05.29:113][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.055702 seconds
+[2021.05.04-00.05.29:120][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.05.04-00.05.29:120][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.05.04-00.05.29:120][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.04-00.05.29:977][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.04-00.05.29:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.04-00.05.29:988][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.29:988][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.29:988][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.30:831][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.04-00.05.30:880][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.04-00.05.30:880][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.04-00.05.30:988][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.04-00.05.30:988][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.04-00.05.30:995][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.04-00.05.31:003][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.04-00.05.31:025][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.04-00.05.31:038][  0]LogUProjectInfo: Found projects:
+[2021.05.04-00.05.31:073][  0]LogCollectionManager: Loaded 0 collections in 0.002510 seconds
+[2021.05.04-00.05.31:113][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Saved/Collections/' took 0.00s
+[2021.05.04-00.05.31:113][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Content/Developers/김종철/Collections/' took 0.00s
+[2021.05.04-00.05.31:113][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Content/Collections/' took 0.00s
+[2021.05.04-00.05.31:113][  0]LogOcInput: OculusInput pre-init called
+[2021.05.04-00.05.31:133][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.04-00.05.31:133][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.04-00.05.31:224][  0]LogEngine: Initializing Engine...
+[2021.05.04-00.05.31:226][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.04-00.05.31:226][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.04-00.05.31:229][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.05.04-00.05.31:359][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.04-00.05.31:387][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.04-00.05.31:390][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.05.04-00.05.31:398][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.05.04-00.05.31:398][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.04-00.05.31:399][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.04-00.05.31:399][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.04-00.05.31:400][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.04-00.05.31:400][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.04-00.05.31:424][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.04-00.05.31:424][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.04-00.05.31:713][  0]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.05.04-00.05.31:714][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.04-00.05.31:717][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.04-00.05.31:717][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.04-00.05.31:718][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.04-00.05.31:718][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.04-00.05.31:718][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.04-00.05.31:720][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.04-00.05.31:720][  0]LogInit: FAudioDevice initialized.
+[2021.05.04-00.05.31:720][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.04-00.05.31:720][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.05.04-00.05.31:721][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.04-00.05.31:778][  0]LogDerivedDataCache: Saved boot cache 0.06s 85MB C:/Users/김종철/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.05.04-00.05.31:778][  0]LogInit: Texture streaming: Enabled
+[2021.05.04-00.05.31:802][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.05.04-00.05.31:810][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.04-00.05.31:810][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.04-00.05.31:816][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.04-00.05.32:061][  0]LogInit: Transaction tracking system initialized
+[2021.05.04-00.05.32:117][  0]BlueprintLog: New page: 에디터 로드
+[2021.05.04-00.05.32:308][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.05.04-00.05.32:378][  0]TimingProfiler: Initialize
+[2021.05.04-00.05.32:380][  0]TimingProfiler: OnSessionChanged
+[2021.05.04-00.05.32:380][  0]LoadingProfiler: Initialize
+[2021.05.04-00.05.32:380][  0]LoadingProfiler: OnSessionChanged
+[2021.05.04-00.05.32:381][  0]NetworkingProfiler: Initialize
+[2021.05.04-00.05.32:381][  0]NetworkingProfiler: OnSessionChanged
+[2021.05.04-00.05.32:381][  0]MemoryProfiler: Initialize
+[2021.05.04-00.05.32:381][  0]MemoryProfiler: OnSessionChanged
+[2021.05.04-00.05.32:615][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.05.04-00.05.32:615][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.04-00.05.32:930][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Content/' took 0.00s
+[2021.05.04-00.05.33:112][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.05.04-00.05.33:121][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.04-00.05.33:122][  0]LogUnrealEdMisc: Loading editor; pre map load, took 20.347
+[2021.05.04-00.05.33:122][  0]Cmd: MAP LOAD FILE="../../../../../../UE4/NewUEProject/NewProject/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.04-00.05.33:124][  0]LightingResults: New page: 라이팅 빌드
+[2021.05.04-00.05.33:126][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-00.05.33:127][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-00.05.33:128][  0]MapCheck: New page: 맵 체크
+[2021.05.04-00.05.33:128][  0]LightingResults: New page: 라이팅 빌드
+[2021.05.04-00.05.33:137][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.05.04-00.05.33:193][  0]LogTexture: Display: 텍스처 빌드: DeprecatedTexture3A2B5C4546937675D99C53989EA4510D (BGRA8, 128X128)
+[2021.05.04-00.05.33:210][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'SideScrollerExampleMap'.
+[2021.05.04-00.05.33:212][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.04-00.05.33:232][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.04-00.05.33:241][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.05.04-00.05.33:242][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.04-00.05.33:242][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.235ms.
+[2021.05.04-00.05.33:242][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.120
+[2021.05.04-00.05.33:257][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.483
+[2021.05.04-00.05.33:397][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-00.05.33:404][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-00.05.33:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-00.05.33:415][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-00.05.33:448][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3603 classes and 861 folders.
+[2021.05.04-00.05.33:454][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.04-00.05.33:459][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.04-00.05.33:459][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:459][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.04-00.05.33:459][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.05.04-00.05.33:461][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.05.04-00.05.33:461][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:461][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.05.04-00.05.33:461][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.05.04-00.05.33:462][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.05.04-00.05.33:462][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:462][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.05.04-00.05.33:462][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.05.04-00.05.33:463][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.04-00.05.33:463][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:463][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.04-00.05.33:463][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.05.04-00.05.33:465][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.05.04-00.05.33:465][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:465][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.05.04-00.05.33:465][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.05.04-00.05.33:466][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.05.04-00.05.33:466][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:466][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.05.04-00.05.33:466][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2021.05.04-00.05.33:467][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.05.04-00.05.33:467][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:467][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.05.04-00.05.33:467][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.05.04-00.05.33:469][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.05.04-00.05.33:469][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:469][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.05.04-00.05.33:469][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.05.04-00.05.33:470][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.04-00.05.33:470][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:470][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.04-00.05.33:470][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.05.04-00.05.33:471][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.05.04-00.05.33:471][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:472][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.05.04-00.05.33:472][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2021.05.04-00.05.33:473][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.05.04-00.05.33:473][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:473][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.05.04-00.05.33:473][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2021.05.04-00.05.33:474][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.04-00.05.33:474][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:474][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.04-00.05.33:474][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2021.05.04-00.05.33:476][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.04-00.05.33:476][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:476][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.04-00.05.33:476][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
+[2021.05.04-00.05.33:477][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.04-00.05.33:477][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:477][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.04-00.05.33:477][  0]LogPakFile: OnPakFileMounted2Time == 0.000061
+[2021.05.04-00.05.33:479][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.05.04-00.05.33:479][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:479][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.05.04-00.05.33:479][  0]LogPakFile: OnPakFileMounted2Time == 0.000065
+[2021.05.04-00.05.33:480][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.04-00.05.33:480][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:480][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.04-00.05.33:480][  0]LogPakFile: OnPakFileMounted2Time == 0.000069
+[2021.05.04-00.05.33:482][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.05.04-00.05.33:482][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:482][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.05.04-00.05.33:482][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2021.05.04-00.05.33:483][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.04-00.05.33:483][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:483][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.04-00.05.33:483][  0]LogPakFile: OnPakFileMounted2Time == 0.000077
+[2021.05.04-00.05.33:484][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.04-00.05.33:484][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:484][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.04-00.05.33:484][  0]LogPakFile: OnPakFileMounted2Time == 0.000081
+[2021.05.04-00.05.33:486][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.04-00.05.33:486][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:486][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.04-00.05.33:486][  0]LogPakFile: OnPakFileMounted2Time == 0.000086
+[2021.05.04-00.05.33:488][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.04-00.05.33:488][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:488][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.04-00.05.33:488][  0]LogPakFile: OnPakFileMounted2Time == 0.000090
+[2021.05.04-00.05.33:489][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.04-00.05.33:489][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:489][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.04-00.05.33:489][  0]LogPakFile: OnPakFileMounted2Time == 0.000095
+[2021.05.04-00.05.33:491][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.05.04-00.05.33:491][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:491][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.05.04-00.05.33:491][  0]LogPakFile: OnPakFileMounted2Time == 0.000101
+[2021.05.04-00.05.33:493][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.04-00.05.33:493][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:493][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.04-00.05.33:493][  0]LogPakFile: OnPakFileMounted2Time == 0.000106
+[2021.05.04-00.05.33:494][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.04-00.05.33:494][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:494][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.04-00.05.33:494][  0]LogPakFile: OnPakFileMounted2Time == 0.000111
+[2021.05.04-00.05.33:496][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.05.04-00.05.33:496][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.04-00.05.33:496][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.05.04-00.05.33:496][  0]LogPakFile: OnPakFileMounted2Time == 0.000115
+[2021.05.04-00.05.33:607][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.05.04-00.05.33:612][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.05.04-00.05.33:651][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.33:708][  0]LogSlate: Took 0.000943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.04-00.05.33:713][  0]LogSlate: Took 0.003808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.05.04-00.05.33:717][  0]LogSlate: Took 0.003994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.05.04-00.05.33:718][  0]LogSlate: Took 0.000664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.04-00.05.33:730][  0]LogSlate: Took 0.001266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.04-00.05.33:824][  0]LogRenderer: Reallocating scene render targets to support 964x440 Format 10 NumSamples 1 (Frame:1).
+[2021.05.04-00.05.33:888][  0]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.04-00.05.33:991][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.04-00.05.33:991][  0]LogLoad: (Engine Initialization) Total time: 21.22 seconds
+[2021.05.04-00.05.33:991][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.04-00.05.33:991][  0]LogInit: First time updating LLM stats...
+[2021.05.04-00.05.34:036][  0]LogAssetRegistry: Asset discovery search completed in 6.2340 seconds
+[2021.05.04-00.05.34:038][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2021.05.04-00.05.34:083][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.04-00.05.35:195][ 42]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.35:195][ 42]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.35:195][ 42]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.35:219][ 43]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.36:403][ 99]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.36:403][ 99]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.36:403][ 99]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.36:425][100]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.37:610][142]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.37:610][142]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.37:611][142]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.37:632][143]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.38:816][185]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.38:816][185]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.38:816][185]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.38:839][186]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.40:024][228]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.40:024][228]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.40:024][228]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.40:045][229]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.41:230][271]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.41:230][271]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.41:230][271]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.41:251][272]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.42:437][314]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.42:437][314]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.42:437][314]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.42:459][315]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.43:644][357]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.43:644][357]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.43:644][357]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.43:666][358]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.44:851][400]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.44:851][400]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.44:851][400]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.44:873][401]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.46:060][443]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.46:060][443]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.46:060][443]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.46:082][444]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.47:267][486]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.47:267][486]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.47:268][486]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.47:289][487]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.48:474][529]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.48:474][529]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.48:474][529]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.48:495][530]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.49:680][571]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.49:680][571]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.49:680][571]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.49:701][572]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.50:888][614]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.50:888][614]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.50:888][614]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.50:910][615]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.52:096][648]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.52:096][648]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.52:096][648]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.52:122][650]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.52:183][651]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.04-00.05.52:191][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.04-00.05.52:193][651]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 4. 오후 6:05:52)
+[2021.05.04-00.05.52:195][651]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.04-00.05.52:198][651]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.04-00.05.52:198][651]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.04-00.05.52:210][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012269s)
+[2021.05.04-00.05.52:212][651]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.04-00.05.52:212][651]LogPlayLevel: PIE: World Init took: (0.001588s)
+[2021.05.04-00.05.52:212][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014048s)
+[2021.05.04-00.05.52:220][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.05.04-00.05.52:221][651]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.04-00.05.52:221][651]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.04-00.05.52:221][651]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.04-00.05.52:222][651]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.04-00.05.52:222][651]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.04-00.05.52:229][651]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.04-00.05.52:229][651]LogAudioMixer: Display: 1: FrontRight
+[2021.05.04-00.05.52:323][651]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.05.04-00.05.52:324][651]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.04-00.05.52:324][651]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.04-00.05.52:324][651]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.04-00.05.52:325][651]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.04-00.05.52:325][651]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.04-00.05.52:325][651]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.04-00.05.52:350][651]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.04-00.05.52:350][651]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.04-00.05.52:350][651]LogInit: FAudioDevice initialized.
+[2021.05.04-00.05.52:350][651]LogAudio: Display: Audio Device (ID: 2) registered with world 'SideScrollerExampleMap'.
+[2021.05.04-00.05.52:356][651]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.04-00.05.52:360][651]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.04-09.05.52
+[2021.05.04-00.05.52:360][651]LogWorld: Bringing up level for play took: 0.001826
+[2021.05.04-00.05.52:360][651]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.05.04-00.05.52:368][651]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.05.04-00.05.52:368][651]PIE: 서버가 로그인했습니다.
+[2021.05.04-00.05.52:370][651]PIE: 에디터에서 플레이 총 시작 시간 0.182초입니다.
+[2021.05.04-00.05.53:302][682]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.53:302][682]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.53:302][682]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.53:325][683]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.55:511][798]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.55:511][798]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.55:511][798]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.55:534][799]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.56:717][843]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.56:717][843]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.56:717][843]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.56:738][844]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.57:925][886]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.57:925][886]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.57:925][886]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.57:946][887]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.05.59:132][929]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.05.59:132][929]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.05.59:132][929]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.05.59:146][930]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.01:139][  5]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.01:139][  5]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.01:139][  5]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.01:164][  6]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.02:346][ 48]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.02:346][ 48]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.02:346][ 48]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.02:368][ 49]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.03:554][ 91]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.03:554][ 91]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.03:554][ 91]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.03:577][ 92]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.04:762][134]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.04:762][134]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.04:762][134]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.04:785][135]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.05:971][180]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.05:971][180]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.05:971][180]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.05:993][181]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.07:179][223]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.07:179][223]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.07:180][223]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.07:202][224]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.08:386][266]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.08:386][266]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.08:386][266]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.08:409][267]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.09:592][305]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.09:592][305]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.09:592][305]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.09:614][306]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.10:802][350]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.10:802][350]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.10:802][350]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.10:824][351]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.12:011][393]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.12:011][393]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.12:011][393]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.12:033][394]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.13:219][436]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.13:219][436]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.13:219][436]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.13:242][437]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.14:426][479]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.14:426][479]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.14:426][479]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.14:449][480]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.14:606][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-00.06.14:606][486]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.04-00.06.14:607][486]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-00.06.14:608][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-00.06.14:616][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.04-00.06.14:617][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-00.06.14:621][486]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.04-00.06.14:621][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.04-00.06.14:622][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.04-00.06.14:651][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-00.06.14:653][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.05.04-00.06.14:672][487]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.05.04-00.06.14:728][490]Cmd: SELECT NONE
+[2021.05.04-00.06.15:633][520]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.15:633][520]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.15:633][520]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.15:656][521]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.16:839][559]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.16:840][559]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.16:840][559]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.16:860][560]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.18:945][604]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.18:945][604]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.18:945][604]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.18:967][605]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.20:152][627]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.20:152][627]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.20:152][627]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.20:175][628]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.22:160][702]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.22:160][702]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.22:160][702]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.22:182][703]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.23:367][745]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.23:367][745]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.23:367][745]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.23:380][746]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.25:572][817]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.25:572][817]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.25:572][817]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.25:763][817]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.27:583][823]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.27:583][823]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.27:583][823]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.27:600][824]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.29:894][875]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.29:894][875]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.29:894][875]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.30:079][875]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.31:904][906]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.31:904][906]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.31:904][906]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.32:089][906]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.32:095][907]LogHttp: Warning: 000001BF427CD600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A3607A6-4717-195C-DCD7-DA9CFE9697E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=59370c1d433a4ec9130115a27a2c4d9d%7C09625a45db004660ad95dcedee328af8%7C44b8b20c-bf33-4d50-bc6f-fd67c8b03e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.05.04-00.06.32:095][907]LogHttp: Warning: 000001BF427CD600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.05.04-00.06.32:095][907]LogHttp: Warning: 000001BF427CD600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.05.04-00.06.32:095][907]LogHttp: Warning: 000001BF427CD600: libcurl info message cache 1 (Closing connection 0)
+[2021.05.04-00.06.32:430][908]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A3607A6-4717-195C-DCD7-DA9CFE9697E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=59370c1d433a4ec9130115a27a2c4d9d%7C09625a45db004660ad95dcedee328af8%7C44b8b20c-bf33-4d50-bc6f-fd67c8b03e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.05.04-00.06.33:921][912]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.33:921][912]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.33:921][912]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.34:101][912]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.35:932][918]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.35:933][918]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.35:933][918]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.36:104][918]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.37:945][924]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.37:945][924]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.37:945][924]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.38:115][924]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.39:963][930]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.39:963][930]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.39:963][930]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.40:125][930]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.41:978][936]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.41:978][936]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.41:978][936]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.42:135][936]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.43:991][942]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.43:991][942]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.43:991][942]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.44:140][942]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.46:006][948]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.46:006][948]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.46:006][948]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.46:145][948]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.48:021][954]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.48:021][954]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.48:021][954]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.48:148][954]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.50:037][960]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.50:037][960]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.50:037][960]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.50:167][960]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.52:054][966]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.52:054][966]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.52:054][966]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.52:178][966]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.53:970][972]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.53:970][972]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.53:970][972]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.54:183][972]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.55:985][978]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.55:985][978]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.55:985][978]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.56:190][978]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.06.58:002][984]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.06.58:002][984]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.06.58:002][984]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.06.58:200][984]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.00:015][990]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.00:015][990]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.00:015][990]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.00:207][990]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.02:033][996]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.02:033][996]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.02:033][996]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.02:226][996]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.04:046][  2]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.04:046][  2]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.04:046][  2]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.04:232][  2]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.06:061][  8]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.06:061][  8]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.06:061][  8]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.06:234][  8]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.08:075][ 14]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.08:075][ 14]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.08:075][ 14]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.08:245][ 14]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.10:088][ 20]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.10:088][ 20]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.10:088][ 20]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.10:251][ 20]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.12:100][ 26]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.12:100][ 26]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.12:100][ 26]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.12:260][ 26]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.14:117][ 32]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.14:117][ 32]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.14:117][ 32]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.14:262][ 32]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.16:131][ 38]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.16:131][ 38]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.16:131][ 38]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.16:271][ 38]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.18:144][ 44]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.18:144][ 44]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.18:144][ 44]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.18:282][ 44]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.20:160][ 50]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.20:160][ 50]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.20:160][ 50]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.20:295][ 50]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.22:172][ 56]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.22:172][ 56]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.22:172][ 56]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.22:303][ 56]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.24:087][ 62]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.24:088][ 62]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.24:088][ 62]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.24:309][ 62]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.26:103][ 68]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.26:103][ 68]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.26:103][ 68]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.26:321][ 68]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.28:116][ 74]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.28:116][ 74]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.28:116][ 74]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.28:344][ 74]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.30:132][ 80]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.30:132][ 80]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.30:132][ 80]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.30:354][ 80]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.32:143][ 86]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.32:143][ 86]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.32:143][ 86]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.32:358][ 86]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.32:363][ 87]LogHttp: Warning: 000001BF427CD600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A3607A6-4717-195C-DCD7-DA9CFE9697E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=59370c1d433a4ec9130115a27a2c4d9d%7C09625a45db004660ad95dcedee328af8%7C44b8b20c-bf33-4d50-bc6f-fd67c8b03e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.05.04-00.07.32:363][ 87]LogHttp: Warning: 000001BF427CD600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.05.04-00.07.32:363][ 87]LogHttp: Warning: 000001BF427CD600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.05.04-00.07.32:363][ 87]LogHttp: Warning: 000001BF427CD600: libcurl info message cache 1 (Closing connection 1)
+[2021.05.04-00.07.32:698][ 88]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A3607A6-4717-195C-DCD7-DA9CFE9697E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=59370c1d433a4ec9130115a27a2c4d9d%7C09625a45db004660ad95dcedee328af8%7C44b8b20c-bf33-4d50-bc6f-fd67c8b03e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.05.04-00.07.34:162][ 92]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.34:162][ 92]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.34:162][ 92]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.34:367][ 92]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.36:177][ 98]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.36:177][ 98]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.36:177][ 98]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.36:367][ 98]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.38:185][104]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.38:185][104]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.38:185][104]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.38:376][104]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.40:191][110]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.40:191][110]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.40:191][110]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.40:386][110]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.42:199][116]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.42:199][116]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.42:199][116]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.42:401][116]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.44:206][122]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.44:206][122]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.44:206][122]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.44:411][122]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.46:212][128]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.46:212][128]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.46:212][128]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.46:426][128]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.48:218][134]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.48:218][134]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.48:218][134]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.48:444][134]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.50:324][140]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.50:324][140]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.50:324][140]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.50:455][140]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.52:330][146]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.52:330][146]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.52:330][146]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.52:473][146]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.54:337][152]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.54:337][152]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.54:337][152]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.54:481][152]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.56:344][158]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.56:344][158]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.56:344][158]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.56:498][158]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.07.58:350][164]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.07.58:350][164]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.07.58:350][164]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.07.58:516][164]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.08.00:356][170]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.08.00:356][170]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.08.00:356][170]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.08.00:371][171]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.08.02:466][202]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.08.02:466][202]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.08.02:467][202]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.08.02:638][202]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.08.04:475][208]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.08.04:475][208]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.08.04:475][208]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.08.04:654][208]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.08.06:482][214]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.08.06:482][214]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.08.06:482][214]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.08.06:672][214]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.08.08:487][220]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.08.08:487][220]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.08.08:487][220]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.08.08:690][220]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.08.10:496][226]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.04-00.08.10:496][226]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.04-00.08.10:496][226]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.04-00.08.10:709][226]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.04-00.09.15:483][ 47]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.04-00.09.15:495][ 47]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2021.05.04-00.09.16:109][ 47]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 126 classes and 0 folders.
+[2021.05.04-00.10.01:404][238]LogSlate: Window '튜토리얼' being destroyed
+[2021.05.04-00.10.01:465][238]LogSlate: Window '튜토리얼' being destroyed
+[2021.05.04-00.10.03:516][296]LogSlate: Window 'SideScrollerCharacter' being destroyed
+[2021.05.04-00.10.03:553][296]LogSlate: Window 'SideScrollerCharacter' being destroyed
+[2021.05.04-00.10.03:557][296]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-00.10.03:557][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-00.12.21:215][280]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2021.05.04-00.24.54:523][784]LogSlate: Took 0.007088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.04-00.25.52:650][211]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" -game -rocket -progress
+[2021.05.04-00.25.54:278][211]Discovering modules, targets and source code for project...
+[2021.05.04-00.25.58:713][211]Binding IntelliSense data...
+[2021.05.04-00.26.00:948][211]Binding IntelliSense data... 100%
+[2021.05.04-00.26.00:948][211]Writing project files...
+[2021.05.04-00.26.05:376][211]Writing project files... 100%
+[2021.05.04-00.26.05:748][211]Candidate modules for hot reload:
+[2021.05.04-00.26.05:748][211]  NewProject
+[2021.05.04-00.26.05:748][211]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,1586 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 6:26:50
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Creating makefile for NewProjectEditor (no existing makefile)
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Reflection code generated for NewProjectEditor in 17.4225915 seconds
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-00.26.50:755][211]CompilerResultsLog: Building 13 actions with 12 processes...
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [1/13] Default.rc2
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [2/13] SharedPCH.Engine.ShadowErrors.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [3/13] NewProject.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [4/13] ProjectileA1.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [5/13] NewProject.init.gen.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [6/13] ProjectileA1.gen.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [7/13] NewProjectGameMode.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [8/13] NewProjectGameMode.gen.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [9/13] NewProjectCharacter.gen.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [10/13] NewProjectCharacter.cpp
+[2021.05.04-00.26.50:755][211]CompilerResultsLog:   [11/13] UE4Editor-NewProject-1586.lib
+[2021.05.04-00.26.50:756][211]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1586.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1586.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-00.26.50:756][211]CompilerResultsLog:   [12/13] UE4Editor-NewProject-1586.dll
+[2021.05.04-00.26.50:756][211]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1586.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1586.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-00.26.50:756][211]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl FInputChord::FInputChord(struct FKey,bool,bool,bool,bool)" (__imp_??0FInputChord@@QEAA@UFKey@@_N111@Z)"protected: virtual void __cdecl ANewProjectCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ANewProjectCharacter@@MEAAXPEAVUInputComponent@@@Z) ?Լ????? ?????Ǵ? Ȯ???? ?? ???? ?ܺ? ??ȣ
+[2021.05.04-00.26.50:756][211]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl FInputChord::FInputChord(struct FInputChord const &)" (__imp_??0FInputChord@@QEAA@AEBU0@@Z)"public: struct FInputKeyBinding & __cdecl UInputComponent::BindKey<class ANewProjectCharacter>(struct FInputChord,enum EInputEvent,class ANewProjectCharacter *,void (__cdecl ANewProjectCharacter::*)(void))" (??$BindKey@VANewProjectCharacter@@@UInputComponent@@QEAAAEAUFInputKeyBinding@@UFInputChord@@W4EInputEvent@@PEAVANewProjectCharacter@@P84@EAAXXZ@Z) ?Լ????? ?????Ǵ? Ȯ???? ?? ???? ?ܺ? ??ȣ
+[2021.05.04-00.26.50:756][211]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl FInputChord::~FInputChord(void)" (__imp_??1FInputChord@@QEAA@XZ)"public: struct FInputKeyBinding & __cdecl UInputComponent::BindKey<class ANewProjectCharacter>(struct FInputChord,enum EInputEvent,class ANewProjectCharacter *,void (__cdecl ANewProjectCharacter::*)(void))" (??$BindKey@VANewProjectCharacter@@@UInputComponent@@QEAAAEAUFInputKeyBinding@@UFInputChord@@W4EInputEvent@@PEAVANewProjectCharacter@@P84@EAAXXZ@Z) ?Լ????? ?????Ǵ? Ȯ???? ?? ???? ?ܺ? ??ȣ
+[2021.05.04-00.26.50:756][211]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2001: Ȯ???? ?? ???? ?ܺ? ??ȣ "public: __cdecl FInputChord::~FInputChord(void)" (??1FInputChord@@QEAA@XZ)
+[2021.05.04-00.26.50:756][211]CompilerResultsLog: Error:   C:\UE4\NewUEProject\NewProject\Binaries\Win64\UE4Editor-NewProject-1586.dll : fatal error LNK1120: 4???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2021.05.04-00.26.50:756][211]LogMainFrame: MainFrame: Module compiling took 45.037 seconds
+[2021.05.04-00.26.50:776][211]Warning: HotReload failed, recompile failed
+[2021.05.04-00.26.50:776][211]Warning: RebindPackages failed because compilation failed.
+[2021.05.04-00.26.58:621][211]LogSlate: Window '메시지' being destroyed
+[2021.05.04-00.26.58:649][211]Message dialog closed, result: Yes, title: 메시지, text: 'ProjectileA1' 클래스 추가에 성공했지만, 'NewProject' 모듈을 다시 컴파일해야 콘텐츠 브라우저에 나타날 것입니다. 'NewProject' 모듈을 자동으로 핫 리로드하는 데 실패했습니다.
+
+출력 로그를 열어 자세한 내용을 확인하시겠습니까?
+[2021.05.04-00.26.58:697][211]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2021.05.04-00.26.58:707][211]LogHotReload: New module detected: UE4Editor-NewProject-1586.dll
+[2021.05.04-00.26.58:726][211]LogSlate: Took 0.009648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.04-00.26.58:745][211]LogSlate: Took 0.011722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.05.04-00.26.58:849][211]LogSlate: Took 0.010538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.05.04-00.26.58:849][211]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2021.05.04-00.26.58:861][211]LogSlate: Took 0.010781 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.05.04-00.27.27:273][476]LogSlate: Window '출력 로그' being destroyed
+[2021.05.04-00.27.27:314][476]LogSlate: Window '출력 로그' being destroyed
+[2021.05.04-00.27.29:260][532]Candidate modules for hot reload:
+[2021.05.04-00.27.29:260][532]  NewProject
+[2021.05.04-00.27.29:260][532]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,4324 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-00.27.29:264][532]Warning: Starting HotReload took  0.3s.
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 6:27:31
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.05.04-00.27.31:297][560]CompilerResultsLog:   [1/3] UE4Editor-NewProject-4324.lib
+[2021.05.04-00.27.31:297][560]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4324.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4324.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-00.27.31:297][560]CompilerResultsLog:   [2/3] UE4Editor-NewProject-4324.dll
+[2021.05.04-00.27.31:297][560]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4324.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4324.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl FInputChord::FInputChord(struct FKey,bool,bool,bool,bool)" (__imp_??0FInputChord@@QEAA@UFKey@@_N111@Z)"protected: virtual void __cdecl ANewProjectCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ANewProjectCharacter@@MEAAXPEAVUInputComponent@@@Z) ?Լ????? ?????Ǵ? Ȯ???? ?? ???? ?ܺ? ??ȣ
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl FInputChord::FInputChord(struct FInputChord const &)" (__imp_??0FInputChord@@QEAA@AEBU0@@Z)"public: struct FInputKeyBinding & __cdecl UInputComponent::BindKey<class ANewProjectCharacter>(struct FInputChord,enum EInputEvent,class ANewProjectCharacter *,void (__cdecl ANewProjectCharacter::*)(void))" (??$BindKey@VANewProjectCharacter@@@UInputComponent@@QEAAAEAUFInputKeyBinding@@UFInputChord@@W4EInputEvent@@PEAVANewProjectCharacter@@P84@EAAXXZ@Z) ?Լ????? ?????Ǵ? Ȯ???? ?? ???? ?ܺ? ??ȣ
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl FInputChord::~FInputChord(void)" (__imp_??1FInputChord@@QEAA@XZ)"public: struct FInputKeyBinding & __cdecl UInputComponent::BindKey<class ANewProjectCharacter>(struct FInputChord,enum EInputEvent,class ANewProjectCharacter *,void (__cdecl ANewProjectCharacter::*)(void))" (??$BindKey@VANewProjectCharacter@@@UInputComponent@@QEAAAEAUFInputKeyBinding@@UFInputChord@@W4EInputEvent@@PEAVANewProjectCharacter@@P84@EAAXXZ@Z) ?Լ????? ?????Ǵ? Ȯ???? ?? ???? ?ܺ? ??ȣ
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Error:   NewProjectCharacter.cpp.obj : error LNK2001: Ȯ???? ?? ???? ?ܺ? ??ȣ "public: __cdecl FInputChord::~FInputChord(void)" (??1FInputChord@@QEAA@XZ)
+[2021.05.04-00.27.31:297][560]CompilerResultsLog: Error:   C:\UE4\NewUEProject\NewProject\Binaries\Win64\UE4Editor-NewProject-4324.dll : fatal error LNK1120: 4???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2021.05.04-00.27.31:297][560]LogMainFrame: MainFrame: Module compiling took 2.043 seconds
+[2021.05.04-00.27.31:297][560]Warning: HotReload failed, recompile failed
+[2021.05.04-00.29.08:557][200]Candidate modules for hot reload:
+[2021.05.04-00.29.08:557][200]  NewProject
+[2021.05.04-00.29.08:557][200]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,5256 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-00.29.08:561][200]Warning: Starting HotReload took  0.1s.
+[2021.05.04-00.29.09:341][216]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.04-00.29.09:401][216]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 6:29:17
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Reflection code generated for NewProjectEditor in 4.4128951 seconds
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   [1/6] NewProjectGameMode.cpp
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   [2/6] NewProjectCharacter.gen.cpp
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   [3/6] NewProjectCharacter.cpp
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   [4/6] UE4Editor-NewProject-5256.lib
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-5256.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-5256.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   [5/6] UE4Editor-NewProject-5256.dll
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-5256.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-5256.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-00.29.17:309][454]CompilerResultsLog:   [6/6] NewProjectEditor.target
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Total time in Parallel executor: 3.09 seconds
+[2021.05.04-00.29.17:309][454]CompilerResultsLog: Total execution time: 8.62 seconds
+[2021.05.04-00.29.17:309][454]LogMainFrame: MainFrame: Module compiling took 8.790 seconds
+[2021.05.04-00.29.17:360][454]LogClass: Could not find existing class ProjectileA1 in package /Script/NewProject for HotReload, assuming new class
+[2021.05.04-00.29.17:365][454]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.05.04-00.29.17:369][454]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.04-00.29.17:443][454]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0110 seconds. Added 3604 classes and 861 folders.
+[2021.05.04-00.29.17:444][454]Display: HotReload took  8.9s.
+[2021.05.04-00.29.27:066][751]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA1.h'
+[2021.05.04-00.29.27:224][751]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA1.cpp'
+[2021.05.04-00.45.49:640][568]Cmd: SELECT NONE
+[2021.05.04-00.45.50:515][583]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2021.05.04-00.47.28:791][965]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyProjectileA1.MyProjectileA1
+[2021.05.04-00.47.29:394][965]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2021.05.04-00.47.37:522][ 60]LogHttp: Warning: 000001BF9B1E3200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A3607A6-4717-195C-DCD7-DA9CFE9697E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=59370c1d433a4ec9130115a27a2c4d9d%7C09625a45db004660ad95dcedee328af8%7C44b8b20c-bf33-4d50-bc6f-fd67c8b03e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: request failed, libcurl error: 0 (No error)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1bf09a0fd30 [can pipeline])
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.205.227.176) port 443 (#3))
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 7 (Closing connection 3)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: 000001BF9B1E3200: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.05.04-00.47.37:523][ 60]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A3607A6-4717-195C-DCD7-DA9CFE9697E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=59370c1d433a4ec9130115a27a2c4d9d%7C09625a45db004660ad95dcedee328af8%7C44b8b20c-bf33-4d50-bc6f-fd67c8b03e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.05.04-00.49.07:662][ 65]LogSlate: Took 0.007693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.04-00.49.15:654][227]LogSlate: Window 'MyProjectileA1' being destroyed
+[2021.05.04-00.49.15:694][227]LogSlate: Window 'MyProjectileA1' being destroyed
+[2021.05.04-00.49.15:698][227]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-00.49.15:698][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-00.51.21:595][724]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.05.04-00.53.06:913][129]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.05.04-00.53.06:951][129]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.05.04-00.53.50:089][388]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyProjectileA1.MyProjectileA1
+[2021.05.04-00.53.53:752][442]LogSlate: Window 'MyProjectileA1' being destroyed
+[2021.05.04-00.53.53:809][442]LogSlate: Window 'MyProjectileA1' being destroyed
+[2021.05.04-00.53.53:812][442]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-00.53.53:812][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-01.01.28:888][744]Candidate modules for hot reload:
+[2021.05.04-01.01.28:888][744]  NewProject
+[2021.05.04-01.01.28:888][744]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,6369 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-01.01.28:891][744]Warning: Starting HotReload took  0.1s.
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 7:01:36
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.8877753 seconds
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [1/9] ProjectileA1.cpp
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [2/9] NewProject.init.gen.cpp
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [3/9] ProjectileA1.gen.cpp
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [4/9] NewProjectCharacter.gen.cpp
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [5/9] NewProjectGameMode.cpp
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [6/9] NewProjectCharacter.cpp
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [7/9] UE4Editor-NewProject-6369.lib
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6369.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6369.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [8/9] UE4Editor-NewProject-6369.dll
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6369.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6369.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-01.01.36:111][888]CompilerResultsLog:   [9/9] NewProjectEditor.target
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Total time in Parallel executor: 2.36 seconds
+[2021.05.04-01.01.36:111][888]CompilerResultsLog: Total execution time: 7.11 seconds
+[2021.05.04-01.01.36:111][888]LogMainFrame: MainFrame: Module compiling took 7.255 seconds
+[2021.05.04-01.01.36:167][888]LogClass: Could not find existing class ProjectileA1 in package /Script/NewProject for HotReload, assuming new class
+[2021.05.04-01.01.36:180][888]LogHotReload: Re-instancing ProjectileA1 after hot-reload.
+[2021.05.04-01.01.36:211][888]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.05.04-01.01.36:217][888]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.04-01.01.36:332][888]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0115 seconds. Added 3604 classes and 861 folders.
+[2021.05.04-01.01.36:332][888]Display: HotReload took  7.5s.
+[2021.05.04-01.30.11:828][ 68]Candidate modules for hot reload:
+[2021.05.04-01.30.11:828][ 68]  NewProject
+[2021.05.04-01.30.11:828][ 68]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,6589 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-01.30.11:832][ 68]Warning: Starting HotReload took  0.1s.
+[2021.05.04-01.30.17:602][147]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 7:30:17
+[2021.05.04-01.30.17:603][147]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-01.30.17:603][147]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-01.30.17:603][147]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.720956 seconds
+[2021.05.04-01.30.17:603][147]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-01.30.17:603][147]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-01.30.17:603][147]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   [1/9] NewProjectCharacter.gen.cpp
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject/NewProjectCharacter.h(48) : error C2144: ???? ????: void'??(??) ';' ?????? ?;? ?մϴ?.
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject/NewProjectCharacter.h(48) : error C4430: ???? ?????ڰ? ?????ϴ?. int?? ?????մϴ?. ????: C++?????? ?⺻ int?? ???????? ?ʽ??ϴ?.
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   [2/9] NewProjectGameMode.cpp
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C2144: ???? ????: void'??(??) ';' ?????? ?;? ?մϴ?.
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C4430: ???? ?????ڰ? ?????ϴ?. int?? ?????մϴ?. ????: C++?????? ?⺻ int?? ???????? ?ʽ??ϴ?.
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   [3/9] NewProject.init.gen.cpp
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   [4/9] ProjectileA1.cpp
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   [5/9] NewProjectCharacter.cpp
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C2144: ???? ????: void'??(??) ';' ?????? ?;? ?մϴ?.
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C4430: ???? ?????ڰ? ?????ϴ?. int?? ?????մϴ?. ????: C++?????? ?⺻ int?? ???????? ?ʽ??ϴ?.
+[2021.05.04-01.30.17:603][147]CompilerResultsLog:   [6/9] ProjectileA1.gen.cpp
+[2021.05.04-01.30.17:603][147]LogMainFrame: MainFrame: Module compiling took 5.815 seconds
+[2021.05.04-01.30.17:603][147]Warning: HotReload failed, recompile failed
+[2021.05.04-01.30.21:286][201]LogSlate: Took 0.008265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2021.05.04-01.32.18:961][723]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.04-01.32.19:001][723]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.04-01.32.19:939][755]Candidate modules for hot reload:
+[2021.05.04-01.32.19:939][755]  NewProject
+[2021.05.04-01.32.19:939][755]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,2369 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-01.32.19:942][755]Warning: Starting HotReload took  0.1s.
+[2021.05.04-01.32.25:236][828]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 7:32:25
+[2021.05.04-01.32.25:237][828]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-01.32.25:237][828]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-01.32.25:237][828]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.687948 seconds
+[2021.05.04-01.32.25:237][828]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-01.32.25:237][828]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-01.32.25:237][828]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:   [1/6] NewProjectGameMode.cpp
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C2144: ???? ????: void'??(??) ';' ?????? ?;? ?մϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C4430: ???? ?????ڰ? ?????ϴ?. int?? ?????մϴ?. ????: C++?????? ?⺻ int?? ???????? ?ʽ??ϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C4183: 'UFUNCITON': ??ȯ ?????? ?????ϴ?. 'int'?? ??ȯ?ϴ? ???? ?Լ??? ???ֵ˴ϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:   [2/6] NewProjectCharacter.gen.cpp
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject/NewProjectCharacter.h(48) : error C2144: ???? ????: void'??(??) ';' ?????? ?;? ?մϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject/NewProjectCharacter.h(48) : error C4430: ???? ?????ڰ? ?????ϴ?. int?? ?????մϴ?. ????: C++?????? ?⺻ int?? ???????? ?ʽ??ϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject/NewProjectCharacter.h(48) : error C4183: 'UFUNCITON': ??ȯ ?????? ?????ϴ?. 'int'?? ??ȯ?ϴ? ???? ?Լ??? ???ֵ˴ϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:   [3/6] NewProjectCharacter.cpp
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C2144: ???? ????: void'??(??) ';' ?????? ?;? ?մϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C4430: ???? ?????ڰ? ?????ϴ?. int?? ?????մϴ?. ????: C++?????? ?⺻ int?? ???????? ?ʽ??ϴ?.
+[2021.05.04-01.32.25:237][828]CompilerResultsLog:    C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h(48) : error C4183: 'UFUNCITON': ??ȯ ?????? ?????ϴ?. 'int'?? ??ȯ?ϴ? ???? ?Լ??? ???ֵ˴ϴ?.
+[2021.05.04-01.32.25:237][828]LogMainFrame: MainFrame: Module compiling took 5.342 seconds
+[2021.05.04-01.32.25:237][828]Warning: HotReload failed, recompile failed
+[2021.05.04-01.32.32:690][934]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.04-01.32.32:773][934]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.04-01.36.57:284][757]Candidate modules for hot reload:
+[2021.05.04-01.36.57:284][757]  NewProject
+[2021.05.04-01.36.57:284][757]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,4355 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-01.36.57:287][757]Warning: Starting HotReload took  0.1s.
+[2021.05.04-01.37.04:255][897]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 7:37:04
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.6472354 seconds
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Building 7 actions with 12 processes...
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [1/7] NewProject.init.gen.cpp
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [2/7] NewProjectGameMode.cpp
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [3/7] NewProjectCharacter.gen.cpp
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [4/7] NewProjectCharacter.cpp
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [5/7] UE4Editor-NewProject-4355.lib
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4355.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4355.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [6/7] UE4Editor-NewProject-4355.dll
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4355.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4355.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-01.37.04:256][897]CompilerResultsLog:   [7/7] NewProjectEditor.target
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Total time in Parallel executor: 2.30 seconds
+[2021.05.04-01.37.04:256][897]CompilerResultsLog: Total execution time: 6.83 seconds
+[2021.05.04-01.37.04:256][897]LogMainFrame: MainFrame: Module compiling took 7.009 seconds
+[2021.05.04-01.37.04:301][897]LogClass: Could not find existing class NewProjectCharacter in package /Script/NewProject for HotReload, assuming new class
+[2021.05.04-01.37.04:301][897]LogClass: Function FireA1 is new.
+[2021.05.04-01.37.04:305][897]LogClass: Could not find existing class ProjectileA1 in package /Script/NewProject for HotReload, assuming new class
+[2021.05.04-01.37.04:318][897]LogHotReload: Re-instancing NewProjectCharacter after hot-reload.
+[2021.05.04-01.37.04:332][897]LogUObjectGlobals: Warning: Guid referenced by CapsuleComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CollisionCylinder is already used by CapsuleComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.05.04-01.37.04:332][897]LogUObjectGlobals: Warning: Guid referenced by ArrowComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.Arrow is already used by ArrowComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.05.04-01.37.04:332][897]LogUObjectGlobals: Warning: Guid referenced by CharacterMovementComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CharMoveComp is already used by CharacterMovementComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.05.04-01.37.04:332][897]LogUObjectGlobals: Warning: Guid referenced by SkeletalMeshComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.05.04-01.37.04:332][897]LogUObjectGlobals: Warning: Guid referenced by SpringArmComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CameraBoom is already used by SpringArmComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CameraBoom, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.05.04-01.37.04:373][897]LogHotReload: Re-instancing ProjectileA1 after hot-reload.
+[2021.05.04-01.37.04:401][897]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2021.05.04-01.37.04:409][897]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.04-01.37.04:540][897]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3604 classes and 861 folders.
+[2021.05.04-01.37.04:540][897]Display: HotReload took  7.3s.
+[2021.05.04-01.39.18:962][350]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA1.cpp'
+[2021.05.04-01.45.15:405][500]Candidate modules for hot reload:
+[2021.05.04-01.45.15:405][500]  NewProject
+[2021.05.04-01.45.15:405][500]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,4630 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.04-01.45.15:409][500]Warning: Starting HotReload took  0.1s.
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: New page: 컴파일 - 2021. 5. 4. 오후 7:45:22
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.7661088 seconds
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Building 7 actions with 12 processes...
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [1/7] NewProject.init.gen.cpp
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [2/7] ProjectileA1.cpp
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [3/7] ProjectileA1.gen.cpp
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [4/7] NewProjectCharacter.cpp
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [5/7] UE4Editor-NewProject-4630.lib
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4630.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4630.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [6/7] UE4Editor-NewProject-4630.dll
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4630.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-4630.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.04-01.45.22:155][635]CompilerResultsLog:   [7/7] NewProjectEditor.target
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Total time in Parallel executor: 2.07 seconds
+[2021.05.04-01.45.22:155][635]CompilerResultsLog: Total execution time: 6.63 seconds
+[2021.05.04-01.45.22:155][635]LogMainFrame: MainFrame: Module compiling took 6.790 seconds
+[2021.05.04-01.45.22:190][635]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.05.04-01.45.22:190][635]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2021.05.04-01.45.34:809][635]LogWindows: Error: === Critical error: ===
+[2021.05.04-01.45.34:809][635]LogWindows: Error: 
+[2021.05.04-01.45.34:809][635]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2381] 
+[2021.05.04-01.45.34:809][635]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2021.05.04-01.45.34:809][635]LogWindows: Error: 	New Object: NewProjectCharacter /Engine/Transient.Default__NewProjectCharacter
+[2021.05.04-01.45.34:809][635]LogWindows: Error: 	Existing Object: HOTRELOADED_NewProjectCharacter_1 /Engine/Transient.Default__NewProjectCharacter
+[2021.05.04-01.45.34:809][635]LogWindows: Error: 
+[2021.05.04-01.45.34:809][635]LogWindows: Error: 
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8dea74b59 KERNELBASE.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88040d066 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8804107a8 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88011e8cd UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88a8dbe77 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8d6f85591 UE4Editor-NewProject-4630.dll!InternalVTableHelperCtorCaller<ANewProjectCharacter>() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h:3317]
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88a5e01db UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88a5dd6ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8d6f854fb UE4Editor-NewProject-4630.dll!ANewProjectCharacter::StaticClass() [C:\UE4\NewUEProject\NewProject\Source\NewProject\NewProjectCharacter.h:12]
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8d6f8541f UE4Editor-NewProject-4630.dll!TClassCompiledInDefer<ANewProjectCharacter>::Register() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBase.h:301]
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88a88d8ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88a872831 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff88a7a2305 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8801599ea UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:809][635]LogWindows: Error: [Callstack] 0x00007ff8801812a8 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff880180328 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff8518eafc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff8518e8f27 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff8518e9aed UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff8518fc644 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff87fede708 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff61b21d07d UE4Editor.exe!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff61b23117c UE4Editor.exe!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff61b23125a UE4Editor.exe!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff61b2452bd UE4Editor.exe!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff61b247fea UE4Editor.exe!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff8e0777034 KERNEL32.DLL!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: [Callstack] 0x00007ff8e1142651 ntdll.dll!UnknownFunction []
+[2021.05.04-01.45.34:810][635]LogWindows: Error: 
+[2021.05.04-01.45.34:817][635]LogExit: Executing StaticShutdownAfterError
+[2021.05.04-01.45.34:837][635]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.05.04-01.45.34:837][635]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.05.04-01.45.34:846][635]Log file closed, 05/04/21 10:45:34

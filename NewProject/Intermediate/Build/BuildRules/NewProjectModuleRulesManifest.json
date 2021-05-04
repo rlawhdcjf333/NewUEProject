@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\UE4\\NewProject\\Source\\NewProject\\NewProject.Build.cs",
-		"C:\\UE4\\NewProject\\Source\\NewProject.Target.cs",
-		"C:\\UE4\\NewProject\\Source\\NewProjectEditor.Target.cs"
+		"C:\\UE4\\NewUEProject\\NewProject\\Source\\NewProject\\NewProject.Build.cs",
+		"C:\\UE4\\NewUEProject\\NewProject\\Source\\NewProject.Target.cs",
+		"C:\\UE4\\NewUEProject\\NewProject\\Source\\NewProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }

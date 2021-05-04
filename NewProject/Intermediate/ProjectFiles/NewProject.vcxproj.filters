@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NewProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{859DF90F-91D7-4339-9A78-740885674DBB}</UniqueIdentifier>
+      <UniqueIdentifier>{BCEC80DE-BB99-4F65-8358-57834E69369E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NewProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1E84B092-3A9B-48B6-9B90-0C59539702E9}</UniqueIdentifier>
+      <UniqueIdentifier>{F9CC4351-CFE9-487F-9D99-6E643191612D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NewProject">
-      <UniqueIdentifier>{C42A4DCB-C2A3-440C-B641-1ADD2E53D195}</UniqueIdentifier>
+      <UniqueIdentifier>{2060BD05-1ABC-4A13-B8D6-74F6183CC639}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NewProject\NewProject.Build.cs">
       <Filter>Source\NewProject</Filter>
@@ -51,6 +51,12 @@
       <Filter>Source\NewProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NewProject\NewProjectGameMode.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewProject\ProjectileA1.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\ProjectileA1.h">
       <Filter>Source\NewProject</Filter>
     </ClInclude>
   </ItemGroup>

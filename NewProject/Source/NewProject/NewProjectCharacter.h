@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ProjectileA1.h"
 #include "NewProjectCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -30,16 +31,30 @@ protected:
 	/** Handle touch stop event. */
 	void TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location);
 
+
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End of APawn interface
 
+	//투사체A1 
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AProjectileA1> ProjectileA1Class;
+	
 
 public:
 	ANewProjectCharacter();
+
 
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+	//A-1 발사 함수
+	UFUNCTION()
+		void FireA1();
+
+	UPROPERTY(EditAnywhere, Category = Muzzle)
+		FVector Muzzle;
+
 };

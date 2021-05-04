@@ -1,0 +1,21 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+  Parsing headers for NewProjectEditor
+    Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\김종철\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for NewProjectEditor in 3.6352699 seconds
+  Building NewProjectEditor...
+  Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 12 processes...
+    [1/10] NewProject.init.gen.cpp
+    [2/10] ProjectileA1.cpp
+    [3/10] ProjectileA1.gen.cpp
+    [4/10] NewProjectGameMode.cpp
+    [5/10] NewProjectCharacter.gen.cpp
+    [6/10] NewProjectGameMode.gen.cpp
+    [7/10] NewProjectCharacter.cpp
+    [8/10] UE4Editor-NewProject-0016.lib
+       C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0016.lib 라이브러리 및 C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0016.exp 개체를 생성하고 있습니다.
+    [9/10] UE4Editor-NewProject-0016.dll
+       C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0016.suppressed.lib 라이브러리 및 C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0016.suppressed.exp 개체를 생성하고 있습니다.
+    [10/10] NewProjectEditor.target
+  Total time in Parallel executor: 2.25 seconds
+  Total execution time: 6.67 seconds
