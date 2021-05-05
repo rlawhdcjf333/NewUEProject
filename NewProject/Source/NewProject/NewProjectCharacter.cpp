@@ -58,7 +58,7 @@ void ANewProjectCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	//발사키 바인딩
-	PlayerInputComponent->BindAction("ActionQ", IE_Pressed, this, &ANewProjectCharacter::FireA1);
+	PlayerInputComponent->BindAction("ActionQ", IE_Released, this, &ANewProjectCharacter::FireA1);
 
 
 	//횡스크롤 이동 바인딩 (좌/우)
@@ -95,15 +95,22 @@ void ANewProjectCharacter::FireA1()
 {
 	if (ProjectileA1Class)
 	{
+		//캡슐 높이 절반
+		FVector HeightVector(0, 0, GetDefaultHalfHeight());
 
 		//발밑 벡터 == 그냥 루트(== 캡슐 센터)에서 캡슐 높이 절반을 뺀다
-		FVector MyLocation = GetActorLocation() - (0,0,1)*GetDefaultHalfHeight();
+		FVector MyLocation = GetActorLocation() - HeightVector;
 
 		//스폰 방향
-		FRotator MuzzleRotation = GetActorRotation();
+		FRotator MyRotation = GetActorRotation();
 
-		//스폰 위치 ==  발밑에서 머즐 방향으로 (캐릭 정면) 세팅된 머즐 값만큼 이동
-		FVector MuzzleLocation = MyLocation + Muzzle;
+		// 오프셋 벡터
+		FVector Offset(20, 0, 50);
+
+		//스폰 위치 ==  발밑에서 캐릭 정면(X)으로 20, 발밑으로부터 50
+		FVector MuzzleLocation = MyLocation + FTransform(MyRotation).TransformVector(Offset);
+
+		
 
 		UWorld* World = GetWorld();
 		if (World)
@@ -113,11 +120,11 @@ void ANewProjectCharacter::FireA1()
 			SpawnParams.Owner = this; // 액터 콜
 			SpawnParams.Instigator = GetInstigator(); // 폰 콜
 
-			AProjectileA1* Projectile = World->SpawnActor<AProjectileA1>(ProjectileA1Class, MuzzleLocation, MuzzleRotation, SpawnParams);
+			AProjectileA1* Projectile = World->SpawnActor<AProjectileA1>(ProjectileA1Class, MuzzleLocation, MyRotation, SpawnParams);
 
 			if (Projectile)
 			{
-				FVector LaunchDir = MuzzleRotation.Vector();
+				FVector LaunchDir = MyRotation.Vector();
 				Projectile->Fire(LaunchDir);
 			}
 		}

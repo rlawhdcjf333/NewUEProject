@@ -21,7 +21,6 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA1_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	DEFINE_FUNCTION(ANewProjectCharacter::execFireA1)
 	{
@@ -85,10 +84,6 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileA1Class_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileA1Class;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Muzzle_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Muzzle;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -138,18 +133,10 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA1Class = { "ProjectileA1Class", nullptr, (EPropertyFlags)0x0024080000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewProjectCharacter, ProjectileA1Class), Z_Construct_UClass_AProjectileA1_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA1Class_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA1Class_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_Muzzle_MetaData[] = {
-		{ "Category", "Muzzle" },
-		{ "ModuleRelativePath", "NewProjectCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_Muzzle = { "Muzzle", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewProjectCharacter, Muzzle), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_Muzzle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_Muzzle_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANewProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_SideViewCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA1Class,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_Muzzle,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANewProjectCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANewProjectCharacter>::IsAbstract,
@@ -178,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANewProjectCharacter, 2288647849);
+	IMPLEMENT_CLASS(ANewProjectCharacter, 2613846956);
 	template<> NEWPROJECT_API UClass* StaticClass<ANewProjectCharacter>()
 	{
 		return ANewProjectCharacter::StaticClass();

@@ -54,7 +54,4 @@ public:
 	UFUNCTION()
 		void FireA1();
 
-	UPROPERTY(EditAnywhere, Category = Muzzle)
-		FVector Muzzle;
-
 };
