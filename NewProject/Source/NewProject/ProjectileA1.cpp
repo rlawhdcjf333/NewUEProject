@@ -19,6 +19,12 @@ AProjectileA1::AProjectileA1()
 	{
 		CollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
 
+		//대강 이 프로필(Projectile)대로 충돌반응
+		CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
+
+		//충돌 이벤트 바인딩
+		CollisionComponent->OnComponentHit.AddDynamic(this, &AProjectileA1::OnHit);
+
 		//콜라이더 크기
 		CollisionComponent->InitSphereRadius(15.0f);
 
@@ -45,8 +51,13 @@ AProjectileA1::AProjectileA1()
 	if (!ArrowComponent)
 	{
 		ArrowComponent = CreateDefaultSubobject<UArrowComponent>(TEXT("ArrowComponent"));
+
+		//1배의 상대 스케일링 사이즈
+		ArrowComponent->ArrowSize = 1.0f;
 		//루트에 장착
 		ArrowComponent->SetupAttachment(RootComponent);
+		//히든 여부 비활성 == 게임화면에서 보이게 설정
+		ArrowComponent->SetHiddenInGame(false);
 	}
 	//메시 컴포넌트
 	if (!ProjectileMeshComponent)
@@ -58,7 +69,7 @@ AProjectileA1::AProjectileA1()
 			ProjectileMeshComponent->SetStaticMesh(Mesh.Object);
 		}
 	}
-	//머테리얼
+	//머테리얼 (컬러 정보는 블프에서 컨트롤)
 	static ConstructorHelpers::FObjectFinder<UMaterial>Material(TEXT("'/Game/NewMaterial.NewMaterial'"));
 	if (Material.Succeeded())
 	{
@@ -67,6 +78,8 @@ AProjectileA1::AProjectileA1()
 	ProjectileMeshComponent->SetMaterial(0, ProjectileMaterialInstance);
 	ProjectileMeshComponent->SetRelativeScale3D(FVector(0.09f, 0.09f, 0.09f));
 	ProjectileMeshComponent->SetupAttachment(RootComponent);
+
+	
 }
 
 // Called when the game starts or when spawned
@@ -83,12 +96,14 @@ void AProjectileA1::BeginPlay()
 void AProjectileA1::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-
-
 }
 
 void AProjectileA1::Fire(const FVector& ShootingDir)
 {
 	ProjectileMovementComponent->Velocity = ShootingDir * ProjectileMovementComponent->InitialSpeed;
+}
+
+void AProjectileA1::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
+{
+	Destroy();
 }

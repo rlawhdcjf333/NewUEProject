@@ -1,0 +1,1875 @@
+﻿Log file open, 05/06/21 12:01:10
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: NewProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.241232
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/김종철/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 4600H with Radeon Graphics         , GPU: AMD Radeon(TM) Graphics
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.05.06-03.01.10:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:610][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:628][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:628][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.06-03.01.10:628][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.06-03.01.10:628][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:628][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.06-03.01.10:628][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:628][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.06-03.01.10:628][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.06-03.01.10:628][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.05.06-03.01.10:629][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.05.06-03.01.10:629][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.06-03.01.10:630][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.06-03.01.10:630][  0]LogHAL: Display: Platform has ~ 16 GB [16558469120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.06-03.01.10:630][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.06-03.01.10:630][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.06-03.01.10:630][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Scalability.ini]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.06-03.01.10:631][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Engine.ini]
+[2021.05.06-03.01.10:631][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/UE4/NewUEProject/NewProject/Saved/Config/Windows/Editor.ini]
+[2021.05.06-03.01.10:632][  0]LogInit: Computer: JC
+[2021.05.06-03.01.10:632][  0]LogInit: User: 김종철
+[2021.05.06-03.01.10:632][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.05.06-03.01.10:632][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.06-03.01.10:632][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2021.05.06-03.01.10:632][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.06-03.01.10:632][  0]LogMemory: Process Physical Memory: 132.81 MB used, 132.82 MB peak
+[2021.05.06-03.01.10:632][  0]LogMemory: Process Virtual Memory: 118.43 MB used, 118.43 MB peak
+[2021.05.06-03.01.10:632][  0]LogMemory: Physical Memory: 8230.38 MB used,  7561.00 MB free, 15791.39 MB total
+[2021.05.06-03.01.10:632][  0]LogMemory: Virtual Memory: 134212184.00 MB used,  5545.18 MB free, 134217728.00 MB total
+[2021.05.06-03.01.10:640][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.06-03.01.10:752][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.06-03.01.10:755][  0]LogInit: Using OS detected language (ko-KR).
+[2021.05.06-03.01.10:755][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.05.06-03.01.10:758][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.05.06-03.01.10:851][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.06-03.01.10:918][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.05.06-03.01.10:934][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.06-03.01.10:934][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.06-03.01.11:097][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.06-03.01.11:097][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.06-03.01.11:097][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.06-03.01.11:097][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.06-03.01.11:200][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 Ti' (Feature Level 11_0)
+[2021.05.06-03.01.11:200][  0]LogD3D11RHI:       3962/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.06-03.01.11:243][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2021.05.06-03.01.11:243][  0]LogD3D11RHI:       496/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2021.05.06-03.01.11:246][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.06-03.01.11:246][  0]LogD3D11RHI:       0/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.06-03.01.11:246][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.06-03.01.11:252][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.06-03.01.11:252][  0]LogD3D11RHI:     GPU DeviceId: 0x1f95 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.06-03.01.11:252][  0]LogWindows: EnumDisplayDevices:
+[2021.05.06-03.01.11:253][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2021.05.06-03.01.11:254][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2021.05.06-03.01.11:255][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2021.05.06-03.01.11:257][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2021.05.06-03.01.11:258][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.06-03.01.11:258][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.06-03.01.11:259][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.06-03.01.11:260][  0]LogWindows:    7. 'NVIDIA GeForce GTX 1650 Ti' (P:0 D:0)
+[2021.05.06-03.01.11:261][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.05.06-03.01.11:261][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 Ti
+[2021.05.06-03.01.11:261][  0]LogD3D11RHI:   Driver Version: 466.11 (internal:27.21.14.6611, unified:466.11)
+[2021.05.06-03.01.11:261][  0]LogD3D11RHI:      Driver Date: 4-12-2021
+[2021.05.06-03.01.11:261][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2021.05.06-03.01.11:343][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.06-03.01.11:343][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.06-03.01.11:343][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.06-03.01.11:368][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.06-03.01.11:369][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.05.06-03.01.11:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.06-03.01.11:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.06-03.01.11:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.06-03.01.11:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.06-03.01.11:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.06-03.01.11:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.06-03.01.11:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.06-03.01.11:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.06-03.01.11:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.06-03.01.11:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.06-03.01.11:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.06-03.01.11:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.06-03.01.11:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.06-03.01.11:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.05.06-03.01.11:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.05.06-03.01.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.05.06-03.01.11:976][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.05.06-03.01.11:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.06-03.01.11:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.06-03.01.12:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.06-03.01.12:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.06-03.01.12:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.06-03.01.12:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.06-03.01.12:049][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.06-03.01.12:062][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.06-03.01.12:157][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.05.06-03.01.12:157][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../UE4/NewUEProject/NewProject/Intermediate/Shaders/WorkingDirectory/7624/).
+[2021.05.06-03.01.12:157][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/김종철/AppData/Local/Temp/UnrealShaderWorkingDir/B798B82F40D4F0FF25D20995A39F04B9/'.
+[2021.05.06-03.01.12:158][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.06-03.01.12:158][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.06-03.01.12:827][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.06-03.01.12:872][  0]LogDerivedDataCache: Loaded boot cache 0.05s 85MB C:/Users/김종철/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.05.06-03.01.12:872][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/김종철/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.05.06-03.01.12:872][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE4/NewUEProject/NewProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.06-03.01.12:873][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.06-03.01.12:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE4/NewUEProject/NewProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.06-03.01.12:873][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.06-03.01.12:884][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.06-03.01.12:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.06-03.01.12:885][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.06-03.01.12:895][  0]LogDerivedDataCache: Speed tests for C:/Users/김종철/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.05.06-03.01.12:895][  0]LogDerivedDataCache: Display: Performance to C:/Users/김종철/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=233.52MBs, RandomWriteSpeed=166.21MBs. Assigned SpeedClass 'Local'
+[2021.05.06-03.01.12:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/김종철/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.06-03.01.12:895][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.06-03.01.12:895][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.06-03.01.12:937][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.06-03.01.12:938][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.06-03.01.12:963][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2021.05.06-03.01.13:190][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.06-03.01.13:190][  0]LogInit: Active device profile: [000002250AD2FC00][000002250A1F9580 49] Windows
+[2021.05.06-03.01.13:190][  0]LogInit: Profiles: [000002250AD2FC00][000002250A1F9580 49] Windows, [000002250ACE1D00][000002257C7616C0 49] WindowsNoEditor, [000002250AD2CD00][000002250A1FD800 49] WindowsServer, [000002250ACE1100][000002250A201940 49] WindowsClient, [000002250AD2EB00][000002250A209AC0 49] IOS, [000002250ACE3200][000002250A20DC40 49] iPadAir, [000002250AD2CF00][000002250A210100 49] iPadAir2, [000002250AC7E900][000002250A2183C0 49] IPadPro, [000002250AC7EA00][000002250A214400 49] iPadAir3, [000002250AD2CA00][000002250A21C580 49] iPadAir4, [000002250AC7FE00][000002250A220700 49] iPadMini2, [000002250AD2C800][000002250A224880 49] iPadMini3, [000002250AC7DC00][000002250A228A00 49] iPadMini4, [000002250AD2F100][000002250A22CB80 49] iPadMini5, [000002250ACA6200][000002250A234E40 49] iPhone6, [000002250ACA6300][000002250A230E80 49] iPodTouch6, [000002250ACE0300][000002250A23D140 49] iPhone7, [000002250ACE0500][000002250A239180 49] iPodTouch7, [000002250ACA7A00][000002250B251300 49] iPhone5S, [000002250ACE2A00][000002250B255480 49] iPhone6Plus, [000002250ACA5600][000002250B259600 49] iPhone6S, [000002250ACE3C00][000002250A205740 49] iPhone6SPlus, [000002250ACA4700][000002250B25D880 49] iPhone7Plus, [000002250ACE3600][000002250B2619C0 49] iPhoneSE, [000002250ACA7200][000002250B269B40 49] iPhone8, [000002250ACE1400][000002250B26DCC0 49] iPhone8Plus, [000002250ACA4500][000002250B270180 49] iPhoneX, [000002250ACE1000][000002250B274300 49] iPhoneXS, [000002250ACA6F00][000002250B278480 49] iPhoneXSMax, [000002250ACE2200][000002250B27C600 49] iPhoneXR, [000002250ACA4D00][000002250B280780 49] iPhone11, [000002250ACE2F00][000002250B284900 49] iPhone11Pro, [000002250ACA7000][000002250B288A80 49] iPhone11ProMax, [000002250ACE0E00][000002250B28CC00 49] iPhoneSE2, [000002250ACA7100][000002250B290D80 49] iPhone12Mini, [000002250ACE2300][000002250B294F00 49] iPhone12, [000002250ACA6A00][000002250B299080 49] iPhone12Pro, [000002250ACE0200][000002250B29D200 49] iPhone12ProMax, [000002250AD2CB00][000002250B2A1380 49] iPadPro105, [000002250ACA4400][000002250B2A5500 49] iPadPro129, [000002250AD2C400][000002250B2A9680 49] iPadPro97, [000002250ACA7B00][000002250B2657C0 49] iPadPro2_129, [000002250AD2C600][000002250B2AD900 49] iPad5, [000002250ACE3100][000002250B2B1A40 49] iPad6, [000002250AD2F200][000002250B2B5B80 49] iPad7, [000002250ACE3D00][000002250B2BDD00 49] iPad8, [000002250AD2ED00][000002250B2C01C0 49] iPadPro11, [000002250ACE1F00][000002250B2C4340 49] iPadPro2_11, [000002250AD2CC00][000002250B2C84C0 49] iPadPro3_129, [000002250ACE2E00][000002250B2CC640 49] iPadPro4_129, [000002250AD2DF00][000002250B2D07C0 49] AppleTV, [000002250ACE2C00][000002250B2D4940 49] AppleTV4K, [000002250AD2F800][000002250B2D8AC0 49] TVOS, [000002250ACE1500][000002250B2DCC40 49] Mac, [000002250AD2EE00][000002250B2E0DC0 49] MacClient, [000002250ACE1C00][000002250B2E4F40 49] MacNoEditor, [000002250AD2FB00][000002250B2E90C0 49] MacServer, [000002250ACE3500][000002250B2ED240 49] Linux, [000002250AD2D100][000002250B2F13C0 49] LinuxAArch64, [000002250ACE1900][000002250B2F5540 49] LinuxNoEditor, [000002250AD2D900][000002250B2F96C0 49] LinuxAArch64NoEditor, [000002250ACE0700][000002250B2B9800 49] LinuxClient, [000002250AD2EF00][000002250B2FD940 49] LinuxAArch64Client, [000002250ACE1200][000002250B301A80 49] LinuxServer, [000002250AD2FD00][000002250B305BC0 49] LinuxAArch64Server, [000002250ACE2800][000002250B30DD40 49] Android, [000002250AD2DB00][000002250B310200 49] Android_Low, [000002250ACE1700][000002250B314380 49] Android_Mid, [000002250AD2C500][000002250B318500 49] Android_High, [000002250ACE2000][000002250B31C680 49] Android_Default, [000002250AD2E500][000002250B320800 49] Android_Adreno4xx, [000002250ACE0600][000002250B324980 49] Android_Adreno5xx_Low, [000002250AD2F900][000002250B328B00 49] Android_Adreno5xx, [000002250ACE2400][000002250B32CC80 49] Android_Adreno6xx, [000002250AD2E100][000002250B330E00 49] Android_Adreno6xx_Vulkan, [000002250ACE2700][000002250B334F80 49] Android_Mali_T6xx, [000002250AD2C900][000002250B339100 49] Android_Mali_T7xx, [000002250ACE0400][000002250B33D280 49] Android_Mali_T8xx, [000002250AD2DD00][000002250B341400 49] Android_Mali_G71, [000002250ACE0800][000002250B345580 49] Android_Mali_G72, [000002250AD2C200][000002250B349700 49] Android_Mali_G72_Vulkan, [000002250ACE0B00][000002250B34D880 49] Android_Mali_G76, [000002250AD2F400][000002250B3099C0 49] Android_Mali_G76_Vulkan, [000002250ACE0F00][000002250B351B00 49] Android_Mali_G77, [000002250AD2D300][000002250B355C40 49] Android_Mali_G77_Vulkan, [000002250AC7E000][000002250B35C100 49] Android_Vulkan_SM5, [000002250ACA5B00][000002250B360280 49] Android_PowerVR_G6xxx, [000002250AC7C900][000002250B364400 49] Android_PowerVR_GT7xxx, [000002250ACA5A00][000002250B368580 49] Android_PowerVR_GE8xxx, [000002250AC7E300][000002250B36C700 49] Android_PowerVR_GM9xxx, [000002250ACA4B00][000002250B370880 49] Android_PowerVR_GM9xxx_Vulkan, [000002250AC7E200][000002250B374A00 49] Android_TegraK1, [000002250ACA5C00][000002250B378B80 49] Android_Unknown_Vulkan, [000002250AC7CD00][000002250B37CD00 49] Lumin, [000002250ACA7F00][000002250B380E80 49] Lumin_Desktop, [000002250AC7ED00][000002250B385000 49] HoloLens, 
+[2021.05.06-03.01.13:305][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.06-03.01.13:305][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.06-03.01.13:305][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.06-03.01.13:305][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.06-03.01.13:305][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.06-03.01.13:325][  0]LogNetVersion: NewProject 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 234518131)
+[2021.05.06-03.01.13:734][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.05.06-03.01.13:790][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.054965 seconds
+[2021.05.06-03.01.13:795][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.05.06-03.01.13:795][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.05.06-03.01.13:795][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.06-03.01.14:241][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.06-03.01.14:248][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.06-03.01.14:630][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.06-03.01.14:630][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.06-03.01.14:635][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.06-03.01.14:640][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.06-03.01.14:656][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.06-03.01.14:874][  0]LogUProjectInfo: Found projects:
+[2021.05.06-03.01.14:938][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.06-03.01.14:969][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.06-03.01.14:969][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.06-03.01.15:036][  0]LogCollectionManager: Loaded 0 collections in 0.001606 seconds
+[2021.05.06-03.01.15:065][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Saved/Collections/' took 0.00s
+[2021.05.06-03.01.15:065][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Content/Developers/김종철/Collections/' took 0.00s
+[2021.05.06-03.01.15:065][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Content/Collections/' took 0.00s
+[2021.05.06-03.01.15:065][  0]LogOcInput: OculusInput pre-init called
+[2021.05.06-03.01.15:080][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.06-03.01.15:080][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.06-03.01.15:139][  0]LogEngine: Initializing Engine...
+[2021.05.06-03.01.15:140][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.06-03.01.15:140][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.06-03.01.15:141][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.06-03.01.15:243][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.06-03.01.15:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.06-03.01.15:258][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.05.06-03.01.15:263][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.05.06-03.01.15:263][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.01.15:263][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.01.15:263][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.01.15:263][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.01.15:264][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.01.15:280][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.01.15:280][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.01.15:578][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.01.15:581][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.01.15:583][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.01.15:583][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.01.15:584][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.01.15:584][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.01.15:584][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.01.15:585][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.01.15:586][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.01.15:586][  0]LogInit: FAudioDevice initialized.
+[2021.05.06-03.01.15:586][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.05.06-03.01.15:586][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.06-03.01.15:646][  0]LogDerivedDataCache: Saved boot cache 0.06s 85MB C:/Users/김종철/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.05.06-03.01.15:650][  0]LogInit: Texture streaming: Enabled
+[2021.05.06-03.01.15:669][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.05.06-03.01.15:676][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.06-03.01.15:676][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.06-03.01.15:681][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.06-03.01.15:711][  0]LogInit: Transaction tracking system initialized
+[2021.05.06-03.01.15:744][  0]BlueprintLog: New page: 에디터 로드
+[2021.05.06-03.01.15:844][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.05.06-03.01.15:879][  0]TimingProfiler: Initialize
+[2021.05.06-03.01.15:879][  0]TimingProfiler: OnSessionChanged
+[2021.05.06-03.01.15:879][  0]LoadingProfiler: Initialize
+[2021.05.06-03.01.15:879][  0]LoadingProfiler: OnSessionChanged
+[2021.05.06-03.01.15:879][  0]NetworkingProfiler: Initialize
+[2021.05.06-03.01.15:879][  0]NetworkingProfiler: OnSessionChanged
+[2021.05.06-03.01.15:879][  0]MemoryProfiler: Initialize
+[2021.05.06-03.01.15:879][  0]MemoryProfiler: OnSessionChanged
+[2021.05.06-03.01.16:037][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.05.06-03.01.16:037][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.06-03.01.16:254][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/NewUEProject/NewProject/Content/' took 0.00s
+[2021.05.06-03.01.16:423][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.05.06-03.01.16:428][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.05.06-03.01.16:428][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.864
+[2021.05.06-03.01.16:428][  0]Cmd: MAP LOAD FILE="../../../../../../UE4/NewUEProject/NewProject/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.06-03.01.16:429][  0]LightingResults: New page: 라이팅 빌드
+[2021.05.06-03.01.16:430][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.01.16:430][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.01.16:430][  0]MapCheck: New page: 맵 체크
+[2021.05.06-03.01.16:430][  0]LightingResults: New page: 라이팅 빌드
+[2021.05.06-03.01.16:436][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.05.06-03.01.16:488][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.01.16:489][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.01.16:502][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.06-03.01.16:509][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.05.06-03.01.16:509][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.06-03.01.16:509][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.243ms.
+[2021.05.06-03.01.16:509][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.081
+[2021.05.06-03.01.16:511][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.947
+[2021.05.06-03.01.16:618][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.01.16:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.01.16:629][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.01.16:635][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.01.16:650][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3605 classes and 861 folders.
+[2021.05.06-03.01.16:652][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.06-03.01.16:654][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.06-03.01.16:654][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:654][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.06-03.01.16:654][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.05.06-03.01.16:655][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.05.06-03.01.16:655][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:655][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.05.06-03.01.16:655][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.05.06-03.01.16:655][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.05.06-03.01.16:655][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:655][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.05.06-03.01.16:655][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.05.06-03.01.16:656][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.06-03.01.16:656][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:656][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.06-03.01.16:656][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.05.06-03.01.16:656][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.05.06-03.01.16:656][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:656][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.05.06-03.01.16:656][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.05.06-03.01.16:657][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.05.06-03.01.16:657][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:657][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.05.06-03.01.16:657][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.05.06-03.01.16:657][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.05.06-03.01.16:657][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:657][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.05.06-03.01.16:657][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.05.06-03.01.16:658][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.05.06-03.01.16:658][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:658][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.05.06-03.01.16:658][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.05.06-03.01.16:658][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.06-03.01.16:658][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:658][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.06-03.01.16:658][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.05.06-03.01.16:659][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.05.06-03.01.16:659][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:659][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.05.06-03.01.16:659][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.05.06-03.01.16:659][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.05.06-03.01.16:659][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:659][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.05.06-03.01.16:659][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.05.06-03.01.16:660][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.06-03.01.16:660][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:660][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.06-03.01.16:660][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.05.06-03.01.16:660][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.06-03.01.16:660][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:660][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.06-03.01.16:660][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.05.06-03.01.16:661][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.06-03.01.16:661][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:661][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.06-03.01.16:661][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2021.05.06-03.01.16:662][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.05.06-03.01.16:662][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:662][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.05.06-03.01.16:662][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.05.06-03.01.16:663][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.06-03.01.16:663][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:663][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.06-03.01.16:663][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2021.05.06-03.01.16:663][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.05.06-03.01.16:663][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:663][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.05.06-03.01.16:663][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.05.06-03.01.16:664][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.06-03.01.16:664][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:664][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.06-03.01.16:664][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.05.06-03.01.16:664][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.06-03.01.16:664][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:664][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.06-03.01.16:664][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2021.05.06-03.01.16:665][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.06-03.01.16:665][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:665][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.06-03.01.16:665][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.05.06-03.01.16:665][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.06-03.01.16:665][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:665][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.06-03.01.16:665][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.05.06-03.01.16:666][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.06-03.01.16:666][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:666][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.06-03.01.16:666][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.05.06-03.01.16:666][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.05.06-03.01.16:666][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:666][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.05.06-03.01.16:666][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.05.06-03.01.16:667][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.06-03.01.16:667][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:667][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.06-03.01.16:667][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.05.06-03.01.16:667][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.06-03.01.16:667][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:667][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.06-03.01.16:667][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.05.06-03.01.16:668][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.05.06-03.01.16:668][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.06-03.01.16:668][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.05.06-03.01.16:668][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.05.06-03.01.16:707][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.06-03.01.16:708][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.05.06-03.01.16:768][  0]LogSlate: Took 0.000499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.06-03.01.16:771][  0]LogSlate: Took 0.001793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.05.06-03.01.16:773][  0]LogSlate: Took 0.001440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.05.06-03.01.16:773][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.06-03.01.16:777][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.06-03.01.16:852][  0]LogRenderer: Reallocating scene render targets to support 964x440 Format 10 NumSamples 1 (Frame:1).
+[2021.05.06-03.01.16:896][  0]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.06-03.01.16:989][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.06-03.01.16:989][  0]LogLoad: (Engine Initialization) Total time: 7.43 seconds
+[2021.05.06-03.01.16:989][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.06-03.01.16:990][  0]LogInit: First time updating LLM stats...
+[2021.05.06-03.01.17:043][  0]LogAssetRegistry: Asset discovery search completed in 4.0815 seconds
+[2021.05.06-03.01.17:044][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.05.06-03.01.17:082][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.06-03.01.23:204][244]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.06-03.01.23:250][244]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2021.05.06-03.01.23:368][244]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 126 classes and 0 folders.
+[2021.05.06-03.02.36:121][227]BlueprintLog: New page: NewBlueprint 컴파일
+[2021.05.06-03.02.36:202][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.05.06-03.02.39:582][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../UE4/NewUEProject/NewProject/Content/NewBlueprint.uasset" SILENT=true
+[2021.05.06-03.02.39:592][316]LogSavePackage: Moving '../../../../../../UE4/NewUEProject/NewProject/Saved/NewBlueprint5543CDBC4F7AFE068A7A249575440742.tmp' to '../../../../../../UE4/NewUEProject/NewProject/Content/NewBlueprint.uasset'
+[2021.05.06-03.02.39:620][316]AssetCheck: New page: 애셋 저장: NewBlueprint
+[2021.05.06-03.02.39:620][316]LogContentValidation: Display: Blueprint /Game/NewBlueprint.NewBlueprint 유효성 검사
+[2021.05.06-03.02.45:950][501]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.06-03.03.23:583][961]BlueprintLog: New page: NewBlueprint 컴파일
+[2021.05.06-03.03.23:654][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.05.06-03.03.25:707][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../UE4/NewUEProject/NewProject/Content/NewBlueprint.uasset" SILENT=true
+[2021.05.06-03.03.25:716][  1]LogSavePackage: Moving '../../../../../../UE4/NewUEProject/NewProject/Saved/NewBlueprintB7DF4A3E4AFC99EC4ECE90A8D3E96DCA.tmp' to '../../../../../../UE4/NewUEProject/NewProject/Content/NewBlueprint.uasset'
+[2021.05.06-03.03.25:743][  1]AssetCheck: New page: 애셋 저장: NewBlueprint
+[2021.05.06-03.03.25:743][  1]LogContentValidation: Display: Blueprint /Game/NewBlueprint.NewBlueprint 유효성 검사
+[2021.05.06-03.03.26:989][ 39]LogSlate: Window 'NewBlueprint' being destroyed
+[2021.05.06-03.03.27:026][ 39]LogSlate: Window 'NewBlueprint' being destroyed
+[2021.05.06-03.03.27:030][ 39]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.03.27:030][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.03.32:694][228]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2021.05.06-03.03.34:804][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2021.05.06-03.03.35:515][334]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2021.05.06-03.03.38:777][433]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.06-03.03.56:525][  4]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2021.05.06-03.03.58:594][ 34]LogSlate: Window 'NewBlueprint' being destroyed
+[2021.05.06-03.03.58:677][ 34]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.03.58:678][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.03.58:735][ 34]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2021.05.06-03.03.59:205][ 34]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.06-03.04.01:735][114]LogSlate: Window 'NewBlueprint' being destroyed
+[2021.05.06-03.04.48:901][852]Candidate modules for hot reload:
+[2021.05.06-03.04.48:901][852]  NewProject
+[2021.05.06-03.04.48:901][852]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,7983 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.04.48:905][852]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.04.53:716][981]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:04:53
+[2021.05.06-03.04.53:716][981]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.04.53:716][981]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.06-03.04.53:716][981]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.06-03.04.53:716][981]CompilerResultsLog: Error: C:/UE4/NewUEProject/NewProject/Source/NewProject/NewProjectCharacter.h(46)  : LogCompile: Error: Property has a Category set but is not exposed to the editor or Blueprints with EditAnywhere, BlueprintReadWrite, VisibleAnywhere, BlueprintReadOnly, BlueprintAssignable, BlueprintCallable keywords.
+[2021.05.06-03.04.53:716][981]CompilerResultsLog: Error: C:/UE4/NewUEProject/NewProject/Source/NewProject/NewProjectCharacter.h(50)  : LogCompile: Error: Property has a Category set but is not exposed to the editor or Blueprints with EditAnywhere, BlueprintReadWrite, VisibleAnywhere, BlueprintReadOnly, BlueprintAssignable, BlueprintCallable keywords.
+[2021.05.06-03.04.53:716][981]LogMainFrame: MainFrame: Module compiling took 4.849 seconds
+[2021.05.06-03.04.53:735][981]Warning: HotReload failed, recompile failed
+[2021.05.06-03.04.55:430][ 29]LogSlate: Took 0.000646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.06-03.04.59:133][101]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.06-03.04.59:189][101]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.06-03.05.16:548][220]Candidate modules for hot reload:
+[2021.05.06-03.05.16:548][220]  NewProject
+[2021.05.06-03.05.16:549][220]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,3399 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.05.16:551][220]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:05:24
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.945485 seconds
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Building 8 actions with 12 processes...
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [1/8] NewProject.init.gen.cpp
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [2/8] NewProjectCharacter.gen.cpp
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [3/8] NewProjectGameMode.cpp
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [4/8] NewProjectGameMode.gen.cpp
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [5/8] NewProjectCharacter.cpp
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [6/8] UE4Editor-NewProject-3399.lib
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3399.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3399.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [7/8] UE4Editor-NewProject-3399.dll
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3399.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3399.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.05.24:207][374]CompilerResultsLog:   [8/8] NewProjectEditor.target
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Total time in Parallel executor: 2.48 seconds
+[2021.05.06-03.05.24:207][374]CompilerResultsLog: Total execution time: 7.55 seconds
+[2021.05.06-03.05.24:207][374]LogMainFrame: MainFrame: Module compiling took 7.703 seconds
+[2021.05.06-03.05.24:235][374]LogClass: Could not find existing class NewProjectCharacter in package /Script/NewProject for HotReload, assuming new class
+[2021.05.06-03.05.24:235][374]LogClass: Function FireA1 is new.
+[2021.05.06-03.05.24:235][374]LogClass: Function FireA2 is new.
+[2021.05.06-03.05.24:249][374]LogHotReload: Re-instancing NewProjectCharacter after hot-reload.
+[2021.05.06-03.05.24:409][374]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.05.06-03.05.24:412][374]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.05.06-03.05.24:506][374]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3605 classes and 861 folders.
+[2021.05.06-03.05.24:506][374]Display: HotReload took  8.0s.
+[2021.05.06-03.05.34:876][688]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.06-03.05.47:849][ 64]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.05.47:859][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.05.47:860][ 64]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:05:47)
+[2021.05.06-03.05.47:861][ 64]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.06-03.05.47:862][ 64]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.06-03.05.47:862][ 64]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.05.47:878][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015798s)
+[2021.05.06-03.05.47:879][ 64]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.05.47:879][ 64]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2021.05.06-03.05.47:879][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017116s)
+[2021.05.06-03.05.47:937][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2021.05.06-03.05.47:938][ 64]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.05.47:938][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.05.47:938][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.05.47:939][ 64]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.05.47:939][ 64]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.05.47:948][ 64]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.05.47:948][ 64]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.05.48:016][ 64]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.05.48:016][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.05.48:016][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.05.48:016][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.05.48:017][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.05.48:017][ 64]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.05.48:017][ 64]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.05.48:042][ 64]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.05.48:042][ 64]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.05.48:042][ 64]LogInit: FAudioDevice initialized.
+[2021.05.06-03.05.48:042][ 64]LogAudio: Display: Audio Device (ID: 2) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.05.48:053][ 64]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.05.48:055][ 64]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.05.48
+[2021.05.06-03.05.48:055][ 64]LogWorld: Bringing up level for play took: 0.001574
+[2021.05.06-03.05.48:055][ 64]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.05.06-03.05.48:103][ 64]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.05.06-03.05.48:104][ 64]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.05.48:105][ 64]PIE: 에디터에서 플레이 총 시작 시간 0.249초입니다.
+[2021.05.06-03.05.58:329][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.05.58:329][644]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.05.58:329][644]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.05.58:329][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.05.58:338][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.05.58:392][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.05.58:419][644]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.06-03.05.58:420][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.05.58:421][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.05.58:446][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.05.58:482][644]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.05.06-03.05.58:518][645]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.05.06-03.06.02:073][756]Candidate modules for hot reload:
+[2021.05.06-03.06.02:073][756]  NewProject
+[2021.05.06-03.06.02:073][756]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,204 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.06.02:077][756]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.06.04:143][805]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:06:04
+[2021.05.06-03.06.04:143][805]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.06.04:143][805]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.06-03.06.04:143][805]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.06-03.06.04:143][805]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.05.06-03.06.04:144][805]CompilerResultsLog:   [1/3] UE4Editor-NewProject-0204.lib
+[2021.05.06-03.06.04:144][805]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0204.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0204.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.06.04:144][805]CompilerResultsLog:   [2/3] UE4Editor-NewProject-0204.dll
+[2021.05.06-03.06.04:144][805]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0204.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-0204.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.06.04:144][805]CompilerResultsLog:   [3/3] NewProjectEditor.target
+[2021.05.06-03.06.04:144][805]CompilerResultsLog: Total time in Parallel executor: 1.14 seconds
+[2021.05.06-03.06.04:144][805]CompilerResultsLog: Total execution time: 1.96 seconds
+[2021.05.06-03.06.04:144][805]LogMainFrame: MainFrame: Module compiling took 2.115 seconds
+[2021.05.06-03.06.04:160][805]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3605 classes and 861 folders.
+[2021.05.06-03.06.04:160][805]Display: HotReload took  2.1s.
+[2021.05.06-03.06.07:751][883]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.06.07:759][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.06.07:759][883]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:06:07)
+[2021.05.06-03.06.07:759][883]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.06.07:769][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010696s)
+[2021.05.06-03.06.07:770][883]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.06.07:771][883]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2021.05.06-03.06.07:771][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012123s)
+[2021.05.06-03.06.07:844][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.05.06-03.06.07:845][883]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.06.07:845][883]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.06.07:845][883]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.06.07:845][883]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.06.07:851][883]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.06.07:852][883]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.06.07:923][883]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.06.07:923][883]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.06.07:923][883]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.06.07:923][883]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.06.07:924][883]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.06.07:924][883]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.06.07:924][883]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.06.07:947][883]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.06.07:948][883]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.06.07:948][883]LogInit: FAudioDevice initialized.
+[2021.05.06-03.06.07:948][883]LogAudio: Display: Audio Device (ID: 3) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.06.07:955][883]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.06.07:957][883]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.06.07
+[2021.05.06-03.06.07:957][883]LogWorld: Bringing up level for play took: 0.001812
+[2021.05.06-03.06.07:957][883]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.05.06-03.06.07:960][883]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.06.07:961][883]PIE: 에디터에서 플레이 총 시작 시간 0.204초입니다.
+[2021.05.06-03.06.33:603][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.06.33:603][965]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.06.33:603][965]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.06.33:603][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.06.33:615][965]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.06.33:662][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.06.33:683][965]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.06-03.06.33:683][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.06.33:684][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.06.33:716][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.06.33:725][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.05.06-03.06.33:770][966]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.05.06-03.07.56:068][499]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" -game -rocket -progress
+[2021.05.06-03.07.56:475][499]Discovering modules, targets and source code for project...
+[2021.05.06-03.07.58:190][499]Binding IntelliSense data...
+[2021.05.06-03.08.01:126][499]Binding IntelliSense data... 100%
+[2021.05.06-03.08.01:126][499]Writing project files...
+[2021.05.06-03.08.06:161][499]Writing project files... 100%
+[2021.05.06-03.08.06:275][499]Candidate modules for hot reload:
+[2021.05.06-03.08.06:275][499]  NewProject
+[2021.05.06-03.08.06:276][499]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,1351 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:08:14
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Creating makefile for NewProjectEditor (no existing makefile)
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Reflection code generated for NewProjectEditor in 3.6401962 seconds
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Building 10 actions with 12 processes...
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [1/10] ProjectileA3.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [2/10] NewProject.init.gen.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [3/10] ProjectileA3.gen.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [4/10] NewProjectGameMode.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [5/10] NewProjectCharacter.gen.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [6/10] NewProjectGameMode.gen.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [7/10] NewProjectCharacter.cpp
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [8/10] UE4Editor-NewProject-1351.lib
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1351.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1351.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [9/10] UE4Editor-NewProject-1351.dll
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1351.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1351.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.08.14:203][499]CompilerResultsLog:   [10/10] NewProjectEditor.target
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Total time in Parallel executor: 2.18 seconds
+[2021.05.06-03.08.14:203][499]CompilerResultsLog: Total execution time: 7.83 seconds
+[2021.05.06-03.08.14:203][499]LogMainFrame: MainFrame: Module compiling took 7.933 seconds
+[2021.05.06-03.08.14:239][499]LogClass: Could not find existing class ProjectileA3 in package /Script/NewProject for HotReload, assuming new class
+[2021.05.06-03.08.14:247][499]LogHotReload: Re-instancing ProjectileA1 after hot-reload.
+[2021.05.06-03.08.14:267][499]LogHotReload: Re-instancing ProjectileA2 after hot-reload.
+[2021.05.06-03.08.14:284][499]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2021.05.06-03.08.14:288][499]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.05.06-03.08.14:363][499]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0098 seconds. Added 3606 classes and 861 folders.
+[2021.05.06-03.08.14:363][499]Display: HotReload took  8.1s.
+[2021.05.06-03.08.14:367][499]Warning: HotReload operation took  8.1s.
+[2021.05.06-03.08.15:019][499]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA3.h'
+[2021.05.06-03.08.15:210][499]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA3.cpp'
+[2021.05.06-03.08.15:225][499]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2021.05.06-03.08.15:583][500]LogHotReload: New module detected: UE4Editor-NewProject-1351.dll
+[2021.05.06-03.08.15:620][501]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.06-03.08.15:746][501]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2021.05.06-03.08.15:751][501]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.06-03.08.15:766][501]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0103 seconds. Added 3606 classes and 861 folders.
+[2021.05.06-03.08.15:793][501]Display: HotReload took  0.2s.
+[2021.05.06-03.10.50:790][283]LogContentBrowser: Deferred new asset file creation: NewMaterial1
+[2021.05.06-03.10.50:805][283]LogContentBrowser: Creating deferred item: NewMaterial1
+[2021.05.06-03.10.55:893][470]LogContentBrowser: Attempting asset rename: NewMaterial1 -> NewMaterial3
+[2021.05.06-03.10.55:896][470]LogContentBrowser: End creating deferred item NewMaterial1
+[2021.05.06-03.10.59:991][586]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/NewMaterial3.NewMaterial3
+[2021.05.06-03.10.59:992][586]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.00:215][586]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.00:222][586]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.00:236][586]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.01:190][621]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.05.06-03.11.01:601][643]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.05.06-03.11.01:601][643]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.05.06-03.11.01:601][643]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.01:601][643]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.05:710][777]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.05:716][777]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.05:746][778]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.06:306][809]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2021.05.06-03.11.06:317][810]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.06:540][818]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.05.06-03.11.06:605][820]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.06:671][822]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2021.05.06-03.11.06:827][826]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.05.06-03.11.06:827][826]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.05.06-03.11.06:827][826]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.06:827][826]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.07:861][856]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.07:873][856]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.07:873][856]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.06-03.11.08:440][886]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2021.05.06-03.11.08:452][886]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.08:678][893]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.05.06-03.11.08:743][895]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.08:820][897]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.05.06-03.11.08:962][901]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.05.06-03.11.08:962][901]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.05.06-03.11.08:962][901]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.08:962][901]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.16:785][151]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.16:795][151]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.16:800][151]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.16:811][151]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.06-03.11.16:819][151]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.16:835][151]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.06-03.11.16:843][151]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.16:858][151]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.06-03.11.16:866][151]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.16:873][151]LogSlate: Window '색상 선택 툴' being destroyed
+[2021.05.06-03.11.17:433][184]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2021.05.06-03.11.17:448][185]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2021.05.06-03.11.17:733][202]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2021.05.06-03.11.17:733][202]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2021.05.06-03.11.17:898][212]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.05.06-03.11.17:916][213]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2021.05.06-03.11.17:931][214]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.05.06-03.11.17:966][216]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2021.05.06-03.11.17:983][217]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.05.06-03.11.18:090][223]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2021.05.06-03.11.18:280][230]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.05.06-03.11.18:375][234]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.05.06-03.11.18:542][243]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2021.05.06-03.11.19:100][271]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.05.06-03.11.19:100][271]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2021.05.06-03.11.19:100][271]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.19:100][271]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.23:731][403]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.23:760][404]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.23:761][404]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.24:318][433]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.11.24:705][447]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.05.06-03.11.24:705][447]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2021.05.06-03.11.24:705][447]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.24:705][447]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.26:554][552]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.26:561][552]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.26:595][555]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.26:596][555]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.27:155][588]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.05.06-03.11.27:578][605]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.05.06-03.11.27:578][605]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2021.05.06-03.11.27:578][605]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.27:578][605]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.28:686][637]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.28:703][639]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.29:254][670]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.11.29:745][688]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.05.06-03.11.29:745][688]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2021.05.06-03.11.29:745][688]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.29:745][688]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.53:339][698]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.53:345][698]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.53:372][699]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.54:229][746]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.05.06-03.11.54:663][765]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.05.06-03.11.54:663][765]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2021.05.06-03.11.54:663][765]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.54:663][765]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.11.56:179][853]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.56:187][853]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.11.56:204][855]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.11.56:772][887]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.11.57:210][905]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.11.57:210][905]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.11.57:210][905]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.11.57:210][905]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.12.00:626][ 60]LogMaterialEditor: Saving and Compiling material NewMaterial3
+[2021.05.06-03.12.01:087][ 60]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.12.01:124][ 60]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.12.01:133][ 60]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.12.01:408][ 60]LogUObjectHash: Compacting FUObjectHashTables data took  12.86ms
+[2021.05.06-03.12.01:419][ 60]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2021.05.06-03.12.01:981][ 60]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.05.06-03.12.02:136][ 60]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2021.05.06-03.12.02:136][ 60]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.05.06-03.12.02:148][ 60]TextureStreamingBuild: Display: Compiling optional shaders took 0.735 seconds.
+[2021.05.06-03.12.02:274][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2021.05.06-03.12.02:914][ 60]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.05.06-03.12.03:042][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMaterial3" FILE="../../../../../../UE4/NewUEProject/NewProject/Content/NewMaterial3.uasset" SILENT=true
+[2021.05.06-03.12.03:047][ 60]LogSavePackage: Moving '../../../../../../UE4/NewUEProject/NewProject/Saved/NewMaterial3DFF9CDBF4BB6E07E2A48AEBC3B38C964.tmp' to '../../../../../../UE4/NewUEProject/NewProject/Content/NewMaterial3.uasset'
+[2021.05.06-03.12.03:087][ 60]AssetCheck: New page: 애셋 저장: NewMaterial3
+[2021.05.06-03.12.03:087][ 60]LogContentValidation: Display: Material /Game/NewMaterial3.NewMaterial3 유효성 검사
+[2021.05.06-03.12.03:094][ 60]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.12.03:094][ 60]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.12.03:094][ 60]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.12.03:094][ 60]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.06-03.12.09:550][282]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.12.09:550][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.12.37:814][321]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2021.05.06-03.12.39:258][377]Cmd: DELETE
+[2021.05.06-03.12.39:260][377]Cmd: ACTOR DELETE
+[2021.05.06-03.12.39:265][377]LogEditorActor: Deleted Actor: SideScrollerCharacter_C
+[2021.05.06-03.12.39:331][377]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.05.06-03.12.39:336][377]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.05.06-03.12.42:745][469]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.12.42:755][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.12.42:755][469]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:12:42)
+[2021.05.06-03.12.42:755][469]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.12.42:765][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010519s)
+[2021.05.06-03.12.42:766][469]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.12.42:767][469]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2021.05.06-03.12.42:767][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011689s)
+[2021.05.06-03.12.42:811][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.05.06-03.12.42:812][469]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.12.42:812][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.12.42:812][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.12.42:813][469]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.12.42:813][469]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.12.42:820][469]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.12.42:820][469]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.12.42:891][469]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.12.42:891][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.12.42:891][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.12.42:892][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.12.42:892][469]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.12.42:892][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.12.42:892][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.12.42:918][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.12.42:918][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.12.42:918][469]LogInit: FAudioDevice initialized.
+[2021.05.06-03.12.42:918][469]LogAudio: Display: Audio Device (ID: 4) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.12.42:926][469]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.12.42:927][469]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.12.42
+[2021.05.06-03.12.42:930][469]LogWorld: Bringing up level for play took: 0.003888
+[2021.05.06-03.12.42:930][469]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.05.06-03.12.42:935][469]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.12.42:936][469]PIE: 에디터에서 플레이 총 시작 시간 0.185초입니다.
+[2021.05.06-03.13.00:887][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.13.00:887][159]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.13.00:887][159]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.13.00:887][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.13.00:899][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.13.00:903][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.13.00:915][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.13.00:915][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.13.00:916][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.13.00:949][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.05.06-03.13.00:967][160]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.05.06-03.13.03:893][278]Cmd: POLY SELECT ALL
+[2021.05.06-03.13.11:748][567]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2021.05.06-03.13.15:468][704]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.06-03.13.20:071][826]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.13.20:079][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.13.20:079][826]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:13:20)
+[2021.05.06-03.13.20:079][826]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.13.20:090][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010712s)
+[2021.05.06-03.13.20:091][826]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.13.20:091][826]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2021.05.06-03.13.20:091][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011815s)
+[2021.05.06-03.13.20:106][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.05.06-03.13.20:108][826]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.13.20:108][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.13.20:108][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.13.20:109][826]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.13.20:109][826]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.13.20:115][826]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.13.20:115][826]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.13.20:188][826]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.13.20:188][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.13.20:188][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.13.20:188][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.13.20:189][826]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.13.20:189][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.13.20:189][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.13.20:212][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.13.20:212][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.13.20:212][826]LogInit: FAudioDevice initialized.
+[2021.05.06-03.13.20:212][826]LogAudio: Display: Audio Device (ID: 5) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.13.20:221][826]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.13.20:223][826]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.13.20
+[2021.05.06-03.13.20:224][826]LogWorld: Bringing up level for play took: 0.001764
+[2021.05.06-03.13.20:224][826]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.05.06-03.13.20:228][826]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.13.20:229][826]PIE: 에디터에서 플레이 총 시작 시간 0.153초입니다.
+[2021.05.06-03.13.31:224][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.13.31:224][261]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.13.31:224][261]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.13.31:225][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.13.31:235][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.13.31:282][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.13.31:294][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.13.31:294][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.13.31:295][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.13.31:328][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.05.06-03.13.31:367][262]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.05.06-03.13.33:889][361]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2021.05.06-03.13.42:717][703]Cmd: TRANSACTION UNDO
+[2021.05.06-03.13.42:717][703]LogEditorTransaction: Undo 액터 클릭
+[2021.05.06-03.13.42:743][703]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.13.42:782][703]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.13.43:547][723]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.05.06-03.13.43:975][731]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.13.43:975][731]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.13.43:975][731]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.13.43:975][731]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.13.45:476][752]Cmd: TRANSACTION UNDO
+[2021.05.06-03.13.45:476][752]LogEditorTransaction: Undo 액터 삭제
+[2021.05.06-03.13.45:576][752]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.13.45:587][752]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.13.46:124][762]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.13.46:541][770]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.13.46:541][770]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.13.46:541][770]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.13.46:541][770]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.13.49:142][827]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2021.05.06-03.13.49:986][858]Cmd: DELETE
+[2021.05.06-03.13.49:986][858]Cmd: ACTOR DELETE
+[2021.05.06-03.13.49:988][858]LogEditorActor: Deleted Actor: NewBlueprint_C
+[2021.05.06-03.13.50:029][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.05.06-03.13.50:032][858]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2021.05.06-03.14.08:140][516]Candidate modules for hot reload:
+[2021.05.06-03.14.08:140][516]  NewProject
+[2021.05.06-03.14.08:140][516]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,7526 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.14.08:144][516]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.14.12:745][581]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:14:12
+[2021.05.06-03.14.12:745][581]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.14.12:745][581]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.06-03.14.12:745][581]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.06-03.14.12:745][581]CompilerResultsLog: Error: C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA3.h(57)  : Error: Expected an include at the top of the header: '#include "ProjectileA3.generated.h"'
+[2021.05.06-03.14.12:745][581]LogMainFrame: MainFrame: Module compiling took 4.612 seconds
+[2021.05.06-03.14.12:745][581]Warning: HotReload failed, recompile failed
+[2021.05.06-03.14.39:342][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.05.06-03.14.39:374][677]LogSavePackage: Moving '../../../../../../UE4/NewUEProject/NewProject/Saved/SideScrollerExampleMap_Auto13E184F6D4BC84DD2C7674BB3EA270352.tmp' to '../../../../../../UE4/NewUEProject/NewProject/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2021.05.06-03.14.39:376][677]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap' took 0.047
+[2021.05.06-03.14.39:376][677]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2021.05.06-03.14.42:875][704]Candidate modules for hot reload:
+[2021.05.06-03.14.42:875][704]  NewProject
+[2021.05.06-03.14.42:875][704]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,9826 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.14.42:878][704]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.14.47:331][785]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:14:47
+[2021.05.06-03.14.47:331][785]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.14.47:331][785]CompilerResultsLog: Parsing headers for NewProjectEditor
+[2021.05.06-03.14.47:331][785]CompilerResultsLog:   Running UnrealHeaderTool "C:\UE4\NewUEProject\NewProject\NewProject.uproject" "C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\NewProjectEditor\Development\NewProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\????ö\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.06-03.14.47:331][785]CompilerResultsLog: Error: C:/UE4/NewUEProject/NewProject/Source/NewProject/ProjectileA3.h(57)  : Error: Expected an include at the top of the header: '#include "ProjectileA3.generated.h"'
+[2021.05.06-03.14.47:331][785]LogMainFrame: MainFrame: Module compiling took 4.501 seconds
+[2021.05.06-03.14.47:331][785]Warning: HotReload failed, recompile failed
+[2021.05.06-03.16.21:652][346]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.06-03.16.21:691][346]LogSlate: Window '메시지 로그' being destroyed
+[2021.05.06-03.16.22:305][364]Candidate modules for hot reload:
+[2021.05.06-03.16.22:305][364]  NewProject
+[2021.05.06-03.16.22:305][364]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,6845 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.16.22:309][364]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:16:24
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.05.06-03.16.24:235][403]CompilerResultsLog:   [1/3] UE4Editor-NewProject-6845.lib
+[2021.05.06-03.16.24:235][403]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6845.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6845.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.16.24:235][403]CompilerResultsLog:   [2/3] UE4Editor-NewProject-6845.dll
+[2021.05.06-03.16.24:235][403]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6845.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-6845.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.16.24:235][403]CompilerResultsLog:   [3/3] NewProjectEditor.target
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: Total time in Parallel executor: 0.90 seconds
+[2021.05.06-03.16.24:235][403]CompilerResultsLog: Total execution time: 1.80 seconds
+[2021.05.06-03.16.24:235][403]LogMainFrame: MainFrame: Module compiling took 1.975 seconds
+[2021.05.06-03.16.24:275][403]LogClass: Could not find existing class ProjectileA3 in package /Script/NewProject for HotReload, assuming new class
+[2021.05.06-03.16.24:275][403]LogClass: Function OnHit is new.
+[2021.05.06-03.16.24:283][403]LogHotReload: Re-instancing ProjectileA1 after hot-reload.
+[2021.05.06-03.16.24:301][403]LogHotReload: Re-instancing ProjectileA3 after hot-reload.
+[2021.05.06-03.16.24:311][403]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2021.05.06-03.16.24:315][403]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.05.06-03.16.24:372][403]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0116 seconds. Added 3606 classes and 861 folders.
+[2021.05.06-03.16.24:372][403]Display: HotReload took  2.1s.
+[2021.05.06-03.16.26:363][436]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.16.26:371][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.16.26:371][436]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:16:26)
+[2021.05.06-03.16.26:371][436]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.16.26:380][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009369s)
+[2021.05.06-03.16.26:381][436]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.16.26:381][436]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2021.05.06-03.16.26:381][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.010547s)
+[2021.05.06-03.16.26:484][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.05.06-03.16.26:485][436]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.16.26:485][436]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.16.26:485][436]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.16.26:486][436]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.16.26:486][436]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.16.26:492][436]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.16.26:492][436]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.16.26:570][436]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.16.26:570][436]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.16.26:570][436]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.16.26:570][436]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.16.26:571][436]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.16.26:571][436]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.16.26:571][436]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.16.26:596][436]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.16.26:596][436]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.16.26:596][436]LogInit: FAudioDevice initialized.
+[2021.05.06-03.16.26:596][436]LogAudio: Display: Audio Device (ID: 6) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.16.26:606][436]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.16.26:608][436]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.16.26
+[2021.05.06-03.16.26:608][436]LogWorld: Bringing up level for play took: 0.001423
+[2021.05.06-03.16.26:608][436]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.05.06-03.16.26:611][436]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.16.26:611][436]PIE: 에디터에서 플레이 총 시작 시간 0.243초입니다.
+[2021.05.06-03.16.35:533][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.16.35:533][699]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.16.35:533][699]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.16.35:534][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.16.35:543][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.16.35:546][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.16.35:557][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.06-03.16.35:557][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.16.35:558][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.16.35:586][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.16.35:611][699]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.05.06-03.16.35:631][700]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.05.06-03.16.57:542][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.06-03.16.58:312][517]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2021.05.06-03.17.07:330][876]Cmd: DELETE
+[2021.05.06-03.17.07:330][876]Cmd: ACTOR DELETE
+[2021.05.06-03.17.07:332][876]LogEditorActor: Deleted Actor: SideScrollerCharacter_C
+[2021.05.06-03.17.07:375][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.05.06-03.17.07:378][876]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2021.05.06-03.17.09:162][949]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2021.05.06-03.17.14:173][139]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.17.14:181][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.17.14:181][139]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:17:14)
+[2021.05.06-03.17.14:181][139]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.17.14:191][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010126s)
+[2021.05.06-03.17.14:192][139]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.17.14:192][139]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2021.05.06-03.17.14:192][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011147s)
+[2021.05.06-03.17.14:206][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.05.06-03.17.14:208][139]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.17.14:208][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.17.14:208][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.17.14:209][139]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.17.14:209][139]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.17.14:215][139]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.17.14:216][139]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.17.14:290][139]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.17.14:291][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.17.14:291][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.17.14:291][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.17.14:291][139]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.17.14:291][139]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.17.14:291][139]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.17.14:313][139]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.17.14:313][139]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.17.14:313][139]LogInit: FAudioDevice initialized.
+[2021.05.06-03.17.14:313][139]LogAudio: Display: Audio Device (ID: 7) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.17.14:322][139]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.17.14:324][139]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.17.14
+[2021.05.06-03.17.14:324][139]LogWorld: Bringing up level for play took: 0.001623
+[2021.05.06-03.17.14:325][139]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.05.06-03.17.14:328][139]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.17.14:329][139]PIE: 에디터에서 플레이 총 시작 시간 0.15초입니다.
+[2021.05.06-03.17.32:430][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.17.32:430][858]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.17.32:431][858]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.17.32:431][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.17.32:444][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.17.32:485][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.17.32:497][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.17.32:497][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.17.32:498][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.17.32:527][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.05.06-03.17.32:566][859]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.05.06-03.17.41:799][214]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.06-03.17.53:113][579]Candidate modules for hot reload:
+[2021.05.06-03.17.53:113][579]  NewProject
+[2021.05.06-03.17.53:113][579]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,1986 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.17.53:116][579]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:17:55
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.05.06-03.17.55:223][620]CompilerResultsLog:   [1/3] UE4Editor-NewProject-1986.lib
+[2021.05.06-03.17.55:223][620]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1986.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1986.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.17.55:223][620]CompilerResultsLog:   [2/3] UE4Editor-NewProject-1986.dll
+[2021.05.06-03.17.55:223][620]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1986.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-1986.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.17.55:223][620]CompilerResultsLog:   [3/3] NewProjectEditor.target
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: Total time in Parallel executor: 1.15 seconds
+[2021.05.06-03.17.55:223][620]CompilerResultsLog: Total execution time: 1.99 seconds
+[2021.05.06-03.17.55:223][620]LogMainFrame: MainFrame: Module compiling took 2.155 seconds
+[2021.05.06-03.17.55:265][620]LogHotReload: Re-instancing ProjectileA1 after hot-reload.
+[2021.05.06-03.17.55:277][620]LogHotReload: Re-instancing ProjectileA2 after hot-reload.
+[2021.05.06-03.17.55:289][620]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2021.05.06-03.17.55:293][620]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2021.05.06-03.17.55:347][620]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0105 seconds. Added 3606 classes and 861 folders.
+[2021.05.06-03.17.55:347][620]Display: HotReload took  2.3s.
+[2021.05.06-03.17.57:334][652]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.17.57:342][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.17.57:342][652]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:17:57)
+[2021.05.06-03.17.57:342][652]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.17.57:353][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010237s)
+[2021.05.06-03.17.57:353][652]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.17.57:354][652]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2021.05.06-03.17.57:354][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011418s)
+[2021.05.06-03.17.57:453][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.05.06-03.17.57:454][652]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.17.57:454][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.17.57:454][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.17.57:455][652]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.17.57:455][652]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.17.57:461][652]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.17.57:461][652]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.17.57:530][652]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.17.57:530][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.17.57:530][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.17.57:531][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.17.57:531][652]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.17.57:531][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.17.57:531][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.17.57:553][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.17.57:553][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.17.57:553][652]LogInit: FAudioDevice initialized.
+[2021.05.06-03.17.57:553][652]LogAudio: Display: Audio Device (ID: 8) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.17.57:568][652]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.17.57:570][652]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.17.57
+[2021.05.06-03.17.57:570][652]LogWorld: Bringing up level for play took: 0.001506
+[2021.05.06-03.17.57:571][652]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.05.06-03.17.57:574][652]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.17.57:575][652]PIE: 에디터에서 플레이 총 시작 시간 0.235초입니다.
+[2021.05.06-03.18.04:471][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.18.04:472][832]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.18.04:472][832]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.18.04:472][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.18.04:485][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.18.04:536][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.18.04:546][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.06-03.18.04:553][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.18.04:554][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.18.04:580][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.18.04:603][832]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.05.06-03.18.04:648][833]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.05.06-03.18.05:607][870]Cmd: TRANSACTION UNDO
+[2021.05.06-03.18.05:607][870]LogEditorTransaction: Undo 액터 클릭
+[2021.05.06-03.18.05:632][870]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.18.05:653][870]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.18.06:424][889]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.18.06:856][897]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.18.06:856][897]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.18.06:857][897]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.18.06:857][897]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.18.08:366][927]Cmd: TRANSACTION UNDO
+[2021.05.06-03.18.08:366][927]LogEditorTransaction: Undo 액터 삭제
+[2021.05.06-03.18.08:453][927]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.18.08:467][927]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.18.08:992][936]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.18.09:434][945]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.18.09:434][945]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.18.09:434][945]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.18.09:434][945]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.18.09:883][954]Cmd: TRANSACTION UNDO
+[2021.05.06-03.18.09:883][954]LogEditorTransaction: Undo 액터 클릭
+[2021.05.06-03.18.09:933][954]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.18.09:946][954]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.18.10:494][966]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.18.10:867][973]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.18.10:867][973]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.18.10:867][973]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.18.10:867][973]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.18.11:517][986]Cmd: TRANSACTION UNDO
+[2021.05.06-03.18.11:517][986]LogEditorTransaction: Undo 액터 클릭
+[2021.05.06-03.18.11:568][986]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.18.11:623][987]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.18.11:623][987]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.18.11:623][987]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.18.11:623][987]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.18.11:623][987]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.18.11:624][987]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.18.11:624][987]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.18.11:624][987]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.18.12:084][996]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.18.12:496][  4]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.18.12:496][  4]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.18.12:496][  4]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.18.12:496][  4]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.18.14:045][ 35]Cmd: TRANSACTION UNDO
+[2021.05.06-03.18.14:045][ 35]LogEditorTransaction: Undo 액터 이동
+[2021.05.06-03.18.14:098][ 35]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.18.14:129][ 36]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.18.14:637][ 47]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.18.15:069][ 55]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.18.15:069][ 55]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.18.15:069][ 55]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.18.15:069][ 55]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.18.15:941][ 72]Cmd: TRANSACTION UNDO
+[2021.05.06-03.18.15:941][ 72]LogEditorTransaction: Undo 액터 생성
+[2021.05.06-03.18.15:973][ 72]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.18.15:987][ 72]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.18.16:496][ 83]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.06-03.18.16:879][ 90]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.05.06-03.18.16:879][ 90]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.05.06-03.18.16:879][ 90]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.06-03.18.16:879][ 90]MaterialEditorStats: Texture samplers: 2/16
+[2021.05.06-03.18.21:119][216]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2021.05.06-03.18.49:882][124]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2021.05.06-03.18.56:028][441]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.06-03.18.58:394][537]BlueprintLog: New page: SideScrollerCharacter 컴파일
+[2021.05.06-03.18.58:561][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.05.06-03.18.59:211][556]LogSavePackage: Moving '../../../../../../UE4/NewUEProject/NewProject/Saved/SideScrollerCharacter7512ADAB45AFE188BF041787E020A77C.tmp' to '../../../../../../UE4/NewUEProject/NewProject/Content/SideScrollerCPP/Blueprints/SideScrollerCharacter.uasset'
+[2021.05.06-03.18.59:250][556]AssetCheck: New page: 애셋 저장: SideScrollerCharacter
+[2021.05.06-03.18.59:250][556]LogContentValidation: Display: Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter 유효성 검사
+[2021.05.06-03.19.03:151][764]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.19.03:152][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.19.08:613][821]LogSlate: Window '메시지' being destroyed
+[2021.05.06-03.19.08:626][821]Message dialog closed, result: Yes, title: 메시지, text: 이 머티리얼의 변경내용을 원본 머티리얼에 적용할까요?
+/Game/NewMaterial3.NewMaterial3
+(아니오는 변경내용을 잃습니다!)
+[2021.05.06-03.19.09:095][821]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.05.06-03.19.09:129][821]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.05.06-03.19.09:136][821]LogMaterial: Display: Missing cached shader map for material NewMaterial3, compiling. 
+[2021.05.06-03.19.09:175][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.05.06-03.19.09:181][821]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2021.05.06-03.19.10:303][821]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.05.06-03.19.10:336][821]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.05.06-03.19.10:339][821]TextureStreamingBuild: Display: Compiling optional shaders took 1.163 seconds.
+[2021.05.06-03.19.10:368][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.05.06-03.19.10:496][821]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.19.10:496][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.19.13:770][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.05.06-03.19.15:196][899]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.06-03.19.35:195][294]Candidate modules for hot reload:
+[2021.05.06-03.19.35:195][294]  NewProject
+[2021.05.06-03.19.35:195][294]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NewProject,3243 NewProjectEditor Win64 Development -Project="C:/UE4/NewUEProject/NewProject/NewProject.uproject" "C:/UE4/NewUEProject/NewProject/NewProject.uproject"  -IgnoreJunk]
+[2021.05.06-03.19.35:199][294]Warning: Starting HotReload took  0.1s.
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: New page: 컴파일 - 2021. 5. 6. 오후 9:19:37
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\UE4\NewUEProject).
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: Building NewProjectEditor...
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.05.06-03.19.37:297][324]CompilerResultsLog:   [1/3] UE4Editor-NewProject-3243.lib
+[2021.05.06-03.19.37:297][324]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3243.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3243.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.19.37:297][324]CompilerResultsLog:   [2/3] UE4Editor-NewProject-3243.dll
+[2021.05.06-03.19.37:297][324]CompilerResultsLog:      C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3243.suppressed.lib ???̺귯?? ?? C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\UE4Editor-NewProject-3243.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.05.06-03.19.37:297][324]CompilerResultsLog:   [3/3] NewProjectEditor.target
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: Total time in Parallel executor: 1.04 seconds
+[2021.05.06-03.19.37:297][324]CompilerResultsLog: Total execution time: 1.99 seconds
+[2021.05.06-03.19.37:297][324]LogMainFrame: MainFrame: Module compiling took 2.147 seconds
+[2021.05.06-03.19.37:345][324]LogHotReload: Re-instancing ProjectileA1 after hot-reload.
+[2021.05.06-03.19.37:362][324]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NewProject' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2021.05.06-03.19.37:365][324]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2021.05.06-03.19.37:425][324]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3606 classes and 861 folders.
+[2021.05.06-03.19.37:425][324]Display: HotReload took  2.3s.
+[2021.05.06-03.19.38:839][344]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.05.06-03.19.38:847][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.06-03.19.38:847][344]PIE: New page: PIE 세션: SideScrollerExampleMap (2021. 5. 6. 오후 9:19:38)
+[2021.05.06-03.19.38:847][344]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.19.38:858][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011506s)
+[2021.05.06-03.19.38:859][344]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.05.06-03.19.38:859][344]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2021.05.06-03.19.38:859][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012655s)
+[2021.05.06-03.19.38:958][344]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2021.05.06-03.19.38:960][344]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.06-03.19.38:960][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.06-03.19.38:960][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.06-03.19.38:961][344]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.06-03.19.38:961][344]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.06-03.19.38:967][344]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.06-03.19.38:968][344]LogAudioMixer: Display: 1: FrontRight
+[2021.05.06-03.19.39:037][344]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.05.06-03.19.39:037][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.06-03.19.39:037][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.06-03.19.39:038][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.06-03.19.39:038][344]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.06-03.19.39:038][344]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.06-03.19.39:038][344]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.06-03.19.39:060][344]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.06-03.19.39:060][344]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.06-03.19.39:060][344]LogInit: FAudioDevice initialized.
+[2021.05.06-03.19.39:060][344]LogAudio: Display: Audio Device (ID: 9) registered with world 'SideScrollerExampleMap'.
+[2021.05.06-03.19.39:072][344]LogLoad: Game class is 'NewProjectGameMode'
+[2021.05.06-03.19.39:074][344]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.05.06-12.19.39
+[2021.05.06-03.19.39:074][344]LogWorld: Bringing up level for play took: 0.001401
+[2021.05.06-03.19.39:074][344]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.05.06-03.19.39:077][344]PIE: 서버가 로그인했습니다.
+[2021.05.06-03.19.39:077][344]PIE: 에디터에서 플레이 총 시작 시간 0.233초입니다.
+[2021.05.06-03.19.51:311][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.19.51:311][749]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.05.06-03.19.51:311][749]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-03.19.51:311][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.19.51:322][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.06-03.19.51:363][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-03.19.51:374][749]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.06-03.19.51:382][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.19.51:384][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.06-03.19.51:412][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.06-03.19.51:438][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.05.06-03.19.51:477][750]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.05.06-03.25.27:300][835]LogRHI: Error: Present Fail Count 1
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SyncInterval 0
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.Width 810
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.Height 122
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000E0924
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.Windowed true
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2021.05.06-03.25.27:300][835]LogRHI: Error: SwapChainDesc.Flags 2050
+[2021.05.06-03.25.27:300][835]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:356 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2021.05.06-03.25.27:300][835]LogD3D11RHI: [Aftermath] GDynamicRHI=000002256F7ECB00, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2021.05.06-03.25.27:300][835]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2021.05.06-03.25.30:015][835]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.05.06-03.25.30:015][835]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.05.06-03.25.30:015][835]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.05.06-03.25.30:015][835]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2021.05.06-03.25.30:020][835]Log file closed, 05/06/21 12:25:30

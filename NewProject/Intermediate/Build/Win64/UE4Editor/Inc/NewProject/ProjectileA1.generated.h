@@ -8,14 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef NEWPROJECT_ProjectileA1_generated_h
 #error "ProjectileA1.generated.h already included, missing '#pragma once' in ProjectileA1.h"
 #endif
 #define NEWPROJECT_ProjectileA1_generated_h
 
 #define NewProject_Source_NewProject_ProjectileA1_h_13_SPARSE_DATA
-#define NewProject_Source_NewProject_ProjectileA1_h_13_RPC_WRAPPERS
-#define NewProject_Source_NewProject_ProjectileA1_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define NewProject_Source_NewProject_ProjectileA1_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define NewProject_Source_NewProject_ProjectileA1_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define NewProject_Source_NewProject_ProjectileA1_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectileA1(); \

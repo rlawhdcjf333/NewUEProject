@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NewProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BCEC80DE-BB99-4F65-8358-57834E69369E}</UniqueIdentifier>
+      <UniqueIdentifier>{DCC63C33-1AB1-4A16-A376-4DA0A3789F91}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NewProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F9CC4351-CFE9-487F-9D99-6E643191612D}</UniqueIdentifier>
+      <UniqueIdentifier>{04E44D2F-2AEB-44F7-9FE7-F7DD4C2B40DD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NewProject">
-      <UniqueIdentifier>{2060BD05-1ABC-4A13-B8D6-74F6183CC639}</UniqueIdentifier>
+      <UniqueIdentifier>{3631AED4-5ADC-4721-AE9A-62A04647CD32}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NewProject\NewProject.Build.cs">
       <Filter>Source\NewProject</Filter>
@@ -57,6 +57,18 @@
       <Filter>Source\NewProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NewProject\ProjectileA1.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewProject\ProjectileA2.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\ProjectileA2.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewProject\ProjectileA3.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\ProjectileA3.h">
       <Filter>Source\NewProject</Filter>
     </ClInclude>
   </ItemGroup>
