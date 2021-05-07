@@ -62,18 +62,20 @@ void ANewProjectCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 	//키홀딩 바인딩
 	PlayerInputComponent->BindAction("ActionQ", IE_Pressed, this, &ANewProjectCharacter::QPress);
 	PlayerInputComponent->BindAction("ActionQ", IE_Released, this, &ANewProjectCharacter::QRelease);
+
 	
 	
 	//발사키 바인딩
 	PlayerInputComponent->BindAction("ActionQ", IE_Released, this, &ANewProjectCharacter::FireA1);
 	PlayerInputComponent->BindAction("ActionQ", IE_Released, this, &ANewProjectCharacter::FireA2);
 	PlayerInputComponent->BindAction("ActionW", IE_Pressed, this, &ANewProjectCharacter::FireA3);
+	PlayerInputComponent->BindAction("ActionW", IE_Released, this, &ANewProjectCharacter::FireA4);
 
 
 	//횡스크롤 이동 바인딩 (좌/우)
 	PlayerInputComponent->BindAxis("MoveRight", this, &ANewProjectCharacter::MoveRight);
 
-	//터치 타이밍 바인딩
+	//터치 타이밍 바인딩 ,,, 근데  PC에서 이게 필요할까...? 어쨌거나
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &ANewProjectCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ANewProjectCharacter::TouchStopped);
 
@@ -98,7 +100,6 @@ void ANewProjectCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, con
 }
 //===========================================================================================================
 //키 홀딩 타임 매 프레임 업데이트
-
 void ANewProjectCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -108,24 +109,17 @@ void ANewProjectCharacter::Tick(float DeltaTime)
 		QHoldingTime += DeltaTime;
 	}
 }
-
-
-
 //===========================================================================================================
 //Q 키 홀딩 체크
-
 void ANewProjectCharacter::QPress()
 {
 	QHoldingTime = 0.0f;
 	IsQDown = true;
 }
-
 void ANewProjectCharacter::QRelease()
 {
 	IsQDown = false;
 }
-
-
 //===========================================================================================================
 //A1 발사체 
 
@@ -225,6 +219,8 @@ void ANewProjectCharacter::FireA2()
 	}
 }
 
+//===========================================================================================================
+//A3 발사체
 void ANewProjectCharacter::FireA3()
 {
 	//Q를 누른상태에서 홀딩 시간 1초 체크
@@ -269,4 +265,49 @@ void ANewProjectCharacter::FireA3()
 			}
 		}
 	}
+}
+//===========================================================================================================
+//A4 발사체 :: 
+void ANewProjectCharacter::FireA4()
+{
+	if (IsQDown) return;
+	if (ProjectileA4Class)
+	{
+		//캡슐 높이 절반
+		FVector HeightVector(0, 0, GetDefaultHalfHeight());
+
+		//발밑 벡터 == 그냥 루트(== 캡슐 센터)에서 캡슐 높이 절반을 뺀다
+		FVector MyLocation = GetActorLocation() - HeightVector;
+
+		//스폰 방향
+		FRotator MyRotation = GetActorRotation();
+
+		// 오프셋 벡터
+		FVector Offset(20, 0, 50);
+
+		//스폰 위치 ==  발밑에서 캐릭 정면(X)으로 20, 발밑으로부터 50
+		FVector MuzzleLocation = MyLocation + FTransform(MyRotation).TransformVector(Offset);
+
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			//스포닝 파라미터 세팅
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this; // 액터
+			SpawnParams.Instigator = GetInstigator(); // 폰
+
+			AProjectileA4* Projectile = World->SpawnActor<AProjectileA4>(ProjectileA4Class, MuzzleLocation, MyRotation, SpawnParams);
+
+			//이러면 발사성공
+			if (Projectile)
+			{
+				FVector LaunchDir = MyRotation.Vector();
+				Projectile->Fire(LaunchDir);
+
+				//A3 (분열탄) 발사 트리거 작동
+				IsA3Launched = true;
+			}
+		}
+	}
+
 }

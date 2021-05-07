@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NewProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DCC63C33-1AB1-4A16-A376-4DA0A3789F91}</UniqueIdentifier>
+      <UniqueIdentifier>{54294849-0D14-490A-81F8-CFF04C6E60DE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NewProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{04E44D2F-2AEB-44F7-9FE7-F7DD4C2B40DD}</UniqueIdentifier>
+      <UniqueIdentifier>{71B84115-AE35-414E-88F9-ECFF49B9B12E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NewProject">
-      <UniqueIdentifier>{3631AED4-5ADC-4721-AE9A-62A04647CD32}</UniqueIdentifier>
+      <UniqueIdentifier>{4119C434-5AAB-45F3-BBC1-403AF708E16A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NewProject\MyHUD.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\MyHUD.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewProject\MyPlayerController.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\MyPlayerController.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\NewProject\NewProject.Build.cs">
       <Filter>Source\NewProject</Filter>
     </None>
@@ -69,6 +81,12 @@
       <Filter>Source\NewProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NewProject\ProjectileA3.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewProject\ProjectileA4.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\ProjectileA4.h">
       <Filter>Source\NewProject</Filter>
     </ClInclude>
   </ItemGroup>

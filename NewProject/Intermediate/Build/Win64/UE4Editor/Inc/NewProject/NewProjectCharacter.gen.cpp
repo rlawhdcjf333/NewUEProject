@@ -23,7 +23,15 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA1_NoRegister();
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA2_NoRegister();
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA3_NoRegister();
+	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA4_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ANewProjectCharacter::execFireA4)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->FireA4();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ANewProjectCharacter::execFireA3)
 	{
 		P_FINISH;
@@ -52,6 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 			{ "FireA1", &ANewProjectCharacter::execFireA1 },
 			{ "FireA2", &ANewProjectCharacter::execFireA2 },
 			{ "FireA3", &ANewProjectCharacter::execFireA3 },
+			{ "FireA4", &ANewProjectCharacter::execFireA4 },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -127,6 +136,30 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ANewProjectCharacter_FireA4_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANewProjectCharacter_FireA4_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//A-4 ?\xdf\xbb? ?\xd4\xbc?\n" },
+		{ "ModuleRelativePath", "NewProjectCharacter.h" },
+		{ "ToolTip", "A-4 ?\xdf\xbb? ?\xd4\xbc?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANewProjectCharacter_FireA4_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANewProjectCharacter, nullptr, "FireA4", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANewProjectCharacter_FireA4_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANewProjectCharacter_FireA4_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ANewProjectCharacter_FireA4()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANewProjectCharacter_FireA4_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ANewProjectCharacter_NoRegister()
 	{
 		return ANewProjectCharacter::StaticClass();
@@ -158,6 +191,10 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileA3Class_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileA3Class;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileA4Class_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileA4Class;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -170,6 +207,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		{ &Z_Construct_UFunction_ANewProjectCharacter_FireA1, "FireA1" }, // 4212477324
 		{ &Z_Construct_UFunction_ANewProjectCharacter_FireA2, "FireA2" }, // 10772184
 		{ &Z_Construct_UFunction_ANewProjectCharacter_FireA3, "FireA3" }, // 2023484769
+		{ &Z_Construct_UFunction_ANewProjectCharacter_FireA4, "FireA4" }, // 1652788672
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProjectCharacter_Statics::Class_MetaDataParams[] = {
@@ -203,7 +241,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA1Class_MetaData[] = {
 		{ "Category", "Projectile" },
-		{ "Comment", "//????\xc3\xbc""A1 \n" },
+		{ "Comment", "//=========================================================================================\n//????\xc3\xbc""A1 \n" },
 		{ "ModuleRelativePath", "NewProjectCharacter.h" },
 		{ "ToolTip", "????\xc3\xbc""A1" },
 	};
@@ -227,12 +265,22 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA3Class = { "ProjectileA3Class", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewProjectCharacter, ProjectileA3Class), Z_Construct_UClass_AProjectileA3_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA3Class_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA3Class_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "Comment", "//????\xc3\xbc""A4\n" },
+		{ "ModuleRelativePath", "NewProjectCharacter.h" },
+		{ "ToolTip", "????\xc3\xbc""A4" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class = { "ProjectileA4Class", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewProjectCharacter, ProjectileA4Class), Z_Construct_UClass_AProjectileA4_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANewProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_SideViewCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA1Class,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA2Class,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA3Class,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANewProjectCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANewProjectCharacter>::IsAbstract,
@@ -261,7 +309,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANewProjectCharacter, 2930311148);
+	IMPLEMENT_CLASS(ANewProjectCharacter, 2220496196);
 	template<> NEWPROJECT_API UClass* StaticClass<ANewProjectCharacter>()
 	{
 		return ANewProjectCharacter::StaticClass();

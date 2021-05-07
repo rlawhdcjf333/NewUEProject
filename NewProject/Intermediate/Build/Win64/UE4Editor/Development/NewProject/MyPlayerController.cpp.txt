@@ -1,0 +1,3 @@
+C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Development\NewProject\Definitions.NewProject.h
+C:\UE4\NewUEProject\NewProject\Source\NewProject\MyPlayerController.h
+C:\UE4\NewUEProject\NewProject\Intermediate\Build\Win64\UE4Editor\Inc\NewProject\MyPlayerController.generated.h

@@ -7,6 +7,7 @@
 #include "ProjectileA1.h"
 #include "ProjectileA2.h"
 #include "ProjectileA3.h"
+#include "ProjectileA4.h"
 #include "NewProjectCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -26,7 +27,6 @@ class ANewProjectCharacter : public ACharacter
 	bool IsQDown = false;
 	//Q 홀딩 시간
 	float QHoldingTime = 0.0f;
-
 	//A3 발사 여부
 	bool IsA3Launched = false;
 
@@ -45,6 +45,7 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End of APawn interface
 
+	//=========================================================================================
 	//투사체A1 
 	UPROPERTY(EditAnywhere, Category = Projectile)
 	TSubclassOf<class AProjectileA1> ProjectileA1Class;
@@ -56,6 +57,13 @@ protected:
 	//투사체A3
 	UPROPERTY(EditAnywhere, Category = Projectile)
 	TSubclassOf<class AProjectileA3> ProjectileA3Class;
+
+	//투사체A4
+	UPROPERTY(EditAnywhere, Category = Projectile)
+	TSubclassOf<class AProjectileA4> ProjectileA4Class;
+
+	//========================================================================================= 블루프린트 끌고 오지 않고 StaticClass()로 호출해도 된다.
+
 
 public:
 	ANewProjectCharacter();
@@ -72,17 +80,20 @@ public:
 	void QPress();
 	void QRelease();
 
-
 	//A-1 발사 함수
 	UFUNCTION()
-		void FireA1();
+	void FireA1();
 
 	//A-2 발사 함수
 	UFUNCTION()
-		void FireA2();
+	void FireA2();
 
 	//A-3 발사 함수
 	UFUNCTION()
-		void FireA3();
+	void FireA3();
+
+	//A-4 발사 함수
+	UFUNCTION()
+	void FireA4();
 
 };

@@ -12,7 +12,7 @@ AProjectileA3::AProjectileA3()
 	//루트 컴포넌트 자동 생성
 	if (!RootComponent)
 	{
-		RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("ProjectileSceneComponent"));
+		RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("ProjectileSceneComponent")); 
 	}
 	//충돌 컴포넌트 생성
 	if (!CollisionComponent)
@@ -91,6 +91,7 @@ AProjectileA3::AProjectileA3()
 		if (Mesh.Succeeded())
 		{
 			ProjectileMeshComponent->SetStaticMesh(Mesh.Object);
+			ProjectileMeshComponent->SetCollisionProfileName("Projectile");
 		}
 	}
 	//머테리얼 (컬러 정보는 블프에서 컨트롤)
@@ -102,6 +103,8 @@ AProjectileA3::AProjectileA3()
 	ProjectileMeshComponent->SetMaterial(0, ProjectileMaterialInstance);
 	ProjectileMeshComponent->SetRelativeScale3D(FVector(0.09f, 0.09f, 0.09f));
 	ProjectileMeshComponent->SetupAttachment(RootComponent);
+
+	ProjectileA1Class = AProjectileA1::StaticClass();
 }
 
 // Called when the game starts or when spawned
@@ -118,11 +121,9 @@ void AProjectileA3::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-}
+	//수명이 1프레임 타임 남았을때 분열체 스폰 --> 이렇게 하는 까닭:: BeginDestroy override해서 쓰면 GC랑 꼬여서 엔진이 터지더라.. + 괜히 벽에 닿아서 파괴되어도 호출되는 참사
+	if (GetLifeSpan() <= DeltaTime) Separation();
 
-void AProjectileA3::BeginDestroy()
-{
-	Seperation();
 }
 
 void AProjectileA3::Fire(const FVector& ShootingDir)
@@ -135,19 +136,19 @@ void AProjectileA3::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 	Destroy();
 }
 
-void AProjectileA3::Seperation()
+void AProjectileA3::Separation()
 {
 	if (ProjectileA1Class)
 	{
 		//현재 위치
 		FVector MyLocation = GetActorLocation();
 
-		//ArrowComponent 방향
-		FRotator MyRotation = ArrowComponent->GetRelativeRotation();
-		//ArrowComponent1 방향
-		FRotator MyRotation1 = ArrowComponent1->GetRelativeRotation();
-		//ArrowComponent2 방향
-		FRotator MyRotation2 = ArrowComponent2->GetRelativeRotation();
+		//ArrowComponent 방향 
+		FRotator MyRotation = ArrowComponent->K2_GetComponentRotation();
+		//ArrowComponent1 방향 
+		FRotator MyRotation1 = ArrowComponent1->K2_GetComponentRotation();
+		//ArrowComponent2 방향 == 우향 45도
+		FRotator MyRotation2 = ArrowComponent2->K2_GetComponentRotation();
 
 		
 
@@ -163,6 +164,7 @@ void AProjectileA3::Seperation()
 			AProjectileA1* Projectile = World->SpawnActor<AProjectileA1>(ProjectileA1Class, MyLocation, MyRotation, SpawnParams);
 			AProjectileA1* Projectile1 = World->SpawnActor<AProjectileA1>(ProjectileA1Class, MyLocation, MyRotation1, SpawnParams);
 			AProjectileA1* Projectile2 = World->SpawnActor<AProjectileA1>(ProjectileA1Class, MyLocation, MyRotation2, SpawnParams);
+
 			//3방향 발사
 			if (Projectile)
 			{

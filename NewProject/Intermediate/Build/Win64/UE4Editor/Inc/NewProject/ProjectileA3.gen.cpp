@@ -29,11 +29,11 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(AProjectileA3::execOnSeperation)
+	DEFINE_FUNCTION(AProjectileA3::execSeparation)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->OnSeperation();
+		P_THIS->Separation();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AProjectileA3::execOnHit)
@@ -53,7 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 		UClass* Class = AProjectileA3::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnHit", &AProjectileA3::execOnHit },
-			{ "OnSeperation", &AProjectileA3::execOnSeperation },
+			{ "Separation", &AProjectileA3::execSeparation },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -131,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AProjectileA3_OnSeperation_Statics
+	struct Z_Construct_UFunction_AProjectileA3_Separation_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -139,19 +139,19 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProjectileA3_OnSeperation_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProjectileA3_Separation_Statics::Function_MetaDataParams[] = {
 		{ "Comment", "//?\xd0\xbf? ?\xcc\xba?\xc6\xae\n" },
 		{ "ModuleRelativePath", "ProjectileA3.h" },
 		{ "ToolTip", "?\xd0\xbf? ?\xcc\xba?\xc6\xae" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProjectileA3_OnSeperation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProjectileA3, nullptr, "OnSeperation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProjectileA3_OnSeperation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileA3_OnSeperation_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AProjectileA3_OnSeperation()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProjectileA3_Separation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProjectileA3, nullptr, "Separation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProjectileA3_Separation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileA3_Separation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AProjectileA3_Separation()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AProjectileA3_OnSeperation_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AProjectileA3_Separation_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -208,7 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AProjectileA3_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AProjectileA3_OnHit, "OnHit" }, // 1919105392
-		{ &Z_Construct_UFunction_AProjectileA3_OnSeperation, "OnSeperation" }, // 265124007
+		{ &Z_Construct_UFunction_AProjectileA3_Separation, "Separation" }, // 743339242
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileA3_Statics::Class_MetaDataParams[] = {
@@ -219,7 +219,9 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileA3_Statics::NewProp_ProjectileA1Class_MetaData[] = {
 		{ "Category", "Projectile" },
+		{ "Comment", "//?\xd0\xbf?\xc3\xbc ??\n" },
 		{ "ModuleRelativePath", "ProjectileA3.h" },
+		{ "ToolTip", "?\xd0\xbf?\xc3\xbc ??" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProjectileA3_Statics::NewProp_ProjectileA1Class = { "ProjectileA1Class", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileA3, ProjectileA1Class), Z_Construct_UClass_AProjectileA1_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AProjectileA3_Statics::NewProp_ProjectileA1Class_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileA3_Statics::NewProp_ProjectileA1Class_MetaData)) };
@@ -329,7 +331,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileA3() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectileA3, 2090856087);
+	IMPLEMENT_CLASS(AProjectileA3, 1902504876);
 	template<> NEWPROJECT_API UClass* StaticClass<AProjectileA3>()
 	{
 		return AProjectileA3::StaticClass();

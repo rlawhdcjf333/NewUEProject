@@ -13,3 +13,27 @@ ANewProjectGameMode::ANewProjectGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
+
+void ANewProjectGameMode::BeginPlay()
+{
+	Super::BeginPlay();
+	ChangeMenuWidget(StartingWidgetClass);
+}
+
+void ANewProjectGameMode::ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass)
+{
+    if (CurrentWidget != nullptr)
+    {
+        CurrentWidget->RemoveFromViewport();
+        CurrentWidget = nullptr;
+    }
+
+    if (NewWidgetClass != nullptr)
+    {
+        CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), NewWidgetClass);
+        if (CurrentWidget != nullptr)
+        {
+            CurrentWidget->AddToViewport();
+        }
+    }
+}

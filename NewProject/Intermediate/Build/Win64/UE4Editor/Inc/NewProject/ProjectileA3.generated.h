@@ -20,13 +20,13 @@ struct FHitResult;
 #define NewProject_Source_NewProject_ProjectileA3_h_16_SPARSE_DATA
 #define NewProject_Source_NewProject_ProjectileA3_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnSeperation); \
+	DECLARE_FUNCTION(execSeparation); \
 	DECLARE_FUNCTION(execOnHit);
 
 
 #define NewProject_Source_NewProject_ProjectileA3_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnSeperation); \
+	DECLARE_FUNCTION(execSeparation); \
 	DECLARE_FUNCTION(execOnHit);
 
 

@@ -67,6 +67,7 @@ AProjectileA1::AProjectileA1()
 		if (Mesh.Succeeded())
 		{
 			ProjectileMeshComponent->SetStaticMesh(Mesh.Object);
+			ProjectileMeshComponent->SetCollisionProfileName("Projectile");
 		}
 	}
 	//머테리얼 (컬러 정보는 블프에서 컨트롤)

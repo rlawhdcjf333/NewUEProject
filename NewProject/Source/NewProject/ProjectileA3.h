@@ -23,14 +23,14 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	virtual void BeginDestroy() override;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//분열체 들
 	UPROPERTY(EditAnywhere, Category = Projectile)
-	TSubclassOf<class AProjectileA1> ProjectileA1Class;
+		TSubclassOf<class AProjectileA1> ProjectileA1Class;
+
 
 	//화살표 컴포넌트 <== 이 친구는 인덱스가 대략 0이라고 생각하자
 	UPROPERTY(VisibleAnywhere, Category = ArrowComponent)
@@ -67,5 +67,5 @@ public:
 
 	//분열 이벤트
 	UFUNCTION()
-		void Seperation();
+		void Separation();
 };
