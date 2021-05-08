@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NewProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{54294849-0D14-490A-81F8-CFF04C6E60DE}</UniqueIdentifier>
+      <UniqueIdentifier>{BD15A66B-A6FD-457F-A585-8F522E0329C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NewProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{71B84115-AE35-414E-88F9-ECFF49B9B12E}</UniqueIdentifier>
+      <UniqueIdentifier>{AA9EE579-7220-4C0A-B02A-7A3EEA10BD62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NewProject">
-      <UniqueIdentifier>{4119C434-5AAB-45F3-BBC1-403AF708E16A}</UniqueIdentifier>
+      <UniqueIdentifier>{274135E6-63DD-49F3-893D-CAD3F8F9A59E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NewProject\MyHUD.cpp">
       <Filter>Source\NewProject</Filter>
@@ -42,6 +42,12 @@
       <Filter>Source\NewProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NewProject\MyPlayerController.h">
+      <Filter>Source\NewProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewProject\MyUserWidget.cpp">
+      <Filter>Source\NewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewProject\MyUserWidget.h">
       <Filter>Source\NewProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\NewProject\NewProject.Build.cs">

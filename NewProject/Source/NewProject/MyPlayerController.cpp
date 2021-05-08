@@ -3,8 +3,3 @@
 
 #include "MyPlayerController.h"
 
-void AMyPlayerController::BeginPlay()
-{
-	Super::BeginPlay();
-	SetInputMode(FInputModeGameAndUI());
-}

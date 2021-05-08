@@ -4,16 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "ProjectileA1.h"
-#include "ProjectileA2.h"
-#include "ProjectileA3.h"
-#include "ProjectileA4.h"
 #include "NewProjectCharacter.generated.h"
 
 UCLASS(config=Game)
 class ANewProjectCharacter : public ACharacter
 {
 	GENERATED_BODY()
+
+private:
 
 	/** Side view camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -29,6 +27,11 @@ class ANewProjectCharacter : public ACharacter
 	float QHoldingTime = 0.0f;
 	//A3 발사 여부
 	bool IsA3Launched = false;
+
+	//W 입력 감지
+	bool IsWDown = false;
+	//W 홀딩 시간
+	float WHoldingTime = 0.0f;
 
 protected:
 
@@ -62,8 +65,10 @@ protected:
 	UPROPERTY(EditAnywhere, Category = Projectile)
 	TSubclassOf<class AProjectileA4> ProjectileA4Class;
 
-	//========================================================================================= 블루프린트 끌고 오지 않고 StaticClass()로 호출해도 된다.
-
+	//=========================================================================================
+	//위젯 UI 클래스
+	UPROPERTY(VisibleAnywhere)
+	class UMyUserWidget* PlayerUI;
 
 public:
 	ANewProjectCharacter();
@@ -79,6 +84,10 @@ public:
 	//Q 키입력 체커
 	void QPress();
 	void QRelease();
+
+	//W 키입력 체커
+	void WPress();
+	void WRelease();
 
 	//A-1 발사 함수
 	UFUNCTION()

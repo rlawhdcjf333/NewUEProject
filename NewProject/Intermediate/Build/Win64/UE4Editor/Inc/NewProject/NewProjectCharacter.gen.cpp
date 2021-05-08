@@ -24,6 +24,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA2_NoRegister();
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA3_NoRegister();
 	NEWPROJECT_API UClass* Z_Construct_UClass_AProjectileA4_NoRegister();
+	NEWPROJECT_API UClass* Z_Construct_UClass_UMyUserWidget_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ANewProjectCharacter::execFireA4)
 	{
@@ -195,6 +196,10 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileA4Class_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileA4Class;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerUI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerUI;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -274,6 +279,16 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class = { "ProjectileA4Class", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewProjectCharacter, ProjectileA4Class), Z_Construct_UClass_AProjectileA4_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_PlayerUI_MetaData[] = {
+		{ "Category", "NewProjectCharacter" },
+		{ "Comment", "//=========================================================================================\n//???? UI \xc5\xac????\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NewProjectCharacter.h" },
+		{ "ToolTip", "???? UI \xc5\xac????" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_PlayerUI = { "PlayerUI", nullptr, (EPropertyFlags)0x00200800000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewProjectCharacter, PlayerUI), Z_Construct_UClass_UMyUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_PlayerUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_PlayerUI_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANewProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_SideViewCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_CameraBoom,
@@ -281,6 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA2Class,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA3Class,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_ProjectileA4Class,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProjectCharacter_Statics::NewProp_PlayerUI,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANewProjectCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANewProjectCharacter>::IsAbstract,
@@ -309,7 +325,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANewProjectCharacter, 2220496196);
+	IMPLEMENT_CLASS(ANewProjectCharacter, 2771167133);
 	template<> NEWPROJECT_API UClass* StaticClass<ANewProjectCharacter>()
 	{
 		return ANewProjectCharacter::StaticClass();

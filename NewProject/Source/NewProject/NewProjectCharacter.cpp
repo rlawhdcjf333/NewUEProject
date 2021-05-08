@@ -5,7 +5,14 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "NewProjectGameMode.h"
+#include "ProjectileA1.h"
+#include "ProjectileA2.h"
+#include "ProjectileA3.h"
+#include "ProjectileA4.h"
+#include "MyUserWidget.h"
 #include "GameFramework/CharacterMovementComponent.h"
+
 
 
 ANewProjectCharacter::ANewProjectCharacter()
@@ -40,15 +47,15 @@ ANewProjectCharacter::ANewProjectCharacter()
 	GetCharacterMovement()->GravityScale = 2.f;
 	GetCharacterMovement()->AirControl = 0.80f;
 	GetCharacterMovement()->JumpZVelocity = 1000.f;
-	GetCharacterMovement()->GroundFriction = 3.f;
+	GetCharacterMovement()->GroundFriction = 3.f;	
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
+
 	
-	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
-	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+	
 }
 
-//////////////////////////////////////////////////////////////////////////
+//============================================================================================================
 // Input
 
 void ANewProjectCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -62,6 +69,8 @@ void ANewProjectCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 	//키홀딩 바인딩
 	PlayerInputComponent->BindAction("ActionQ", IE_Pressed, this, &ANewProjectCharacter::QPress);
 	PlayerInputComponent->BindAction("ActionQ", IE_Released, this, &ANewProjectCharacter::QRelease);
+	PlayerInputComponent->BindAction("ActionW", IE_Pressed, this, &ANewProjectCharacter::WPress);
+	PlayerInputComponent->BindAction("ActionW", IE_Released, this, &ANewProjectCharacter::WRelease);
 
 	
 	
@@ -107,6 +116,16 @@ void ANewProjectCharacter::Tick(float DeltaTime)
 	if (IsQDown == true)
 	{
 		QHoldingTime += DeltaTime;
+
+		//충전량 % == 입력 지속시간 / 3
+		float val = QHoldingTime / 3;
+		if (val >= 3.0f) val = 1;
+		GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->ChargeProgressBar(val);
+	}
+
+	if (IsWDown == true)
+	{
+		WHoldingTime += DeltaTime;
 	}
 }
 //===========================================================================================================
@@ -115,11 +134,30 @@ void ANewProjectCharacter::QPress()
 {
 	QHoldingTime = 0.0f;
 	IsQDown = true;
+
+	//ui call
+	GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->EnableProgressBar();
 }
 void ANewProjectCharacter::QRelease()
 {
 	IsQDown = false;
+
+	//ui call
+	GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->DisableProgressBar();
 }
+
+//===========================================================================================================
+//W 키 홀딩 체크
+void ANewProjectCharacter::WPress()
+{
+	WHoldingTime = 0.0f;
+	IsWDown = true;
+}
+void ANewProjectCharacter::WRelease()
+{
+	IsWDown = false;
+}
+
 //===========================================================================================================
 //A1 발사체 
 
@@ -165,6 +203,10 @@ void ANewProjectCharacter::FireA1()
 			{
 				FVector LaunchDir = MyRotation.Vector();
 				Projectile->Fire(LaunchDir);
+
+				//UI 콜
+				GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->A1CountUp();
+
 			}
 		}
 	}
@@ -214,6 +256,9 @@ void ANewProjectCharacter::FireA2()
 			{
 				FVector LaunchDir = MyRotation.Vector();
 				Projectile->Fire(LaunchDir);
+
+				//ui call
+				GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->A2CountUp();
 			}
 		}
 	}
@@ -258,6 +303,10 @@ void ANewProjectCharacter::FireA3()
 				{
 					FVector LaunchDir = MyRotation.Vector();
 					Projectile->Fire(LaunchDir);
+					
+					//ui reference call
+					GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->A3CountUp();
+					GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->DisableProgressBar();
 
 					//A3 (분열탄) 발사 트리거 작동
 					IsA3Launched = true;
@@ -270,7 +319,10 @@ void ANewProjectCharacter::FireA3()
 //A4 발사체 :: 
 void ANewProjectCharacter::FireA4()
 {
-	if (IsQDown) return;
+	if (IsA3Launched)
+	{
+		return;
+	}
 	if (ProjectileA4Class)
 	{
 		//캡슐 높이 절반
@@ -304,10 +356,11 @@ void ANewProjectCharacter::FireA4()
 				FVector LaunchDir = MyRotation.Vector();
 				Projectile->Fire(LaunchDir);
 
-				//A3 (분열탄) 발사 트리거 작동
-				IsA3Launched = true;
+				//ui call
+				GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->A4CountUp();
+				GetWorld()->GetAuthGameMode<ANewProjectGameMode>()->GetUI()->DisableProgressBar();
+
 			}
 		}
 	}
-
 }

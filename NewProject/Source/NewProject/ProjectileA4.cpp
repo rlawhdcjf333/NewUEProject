@@ -22,6 +22,9 @@ AProjectileA4::AProjectileA4()
 		//대강 이 프로필(Projectile)대로 충돌반응
 		CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
 
+		//충돌 바인딩
+		CollisionComponent->OnComponentHit.AddDynamic(this, &AProjectileA4::OnHit);
+
 		//콜라이더 크기
 		CollisionComponent->InitSphereRadius(15.0f);
 
@@ -43,7 +46,7 @@ AProjectileA4::AProjectileA4()
 		//무중력 == 직선운동
 		ProjectileMovementComponent->ProjectileGravityScale = 0.0f;
 
-		//탄성 주겠음. 1 == 완전 탄성 운동 == 진행방향과 정확하게 반대 방향으로 에너지손실 epsilon도 없이 튕겨나감
+		//탄성 주겠음. 1 == 완전 탄성 운동 // 탄성을 주지 않으면 투사체가 Blocker와 계속 충돌하고 있는 대참사가 발생함
 		ProjectileMovementComponent->bShouldBounce = true;
 		ProjectileMovementComponent->Bounciness = 1.0f;
 
@@ -105,3 +108,8 @@ void AProjectileA4::Fire(const FVector& ShootingDir)
 	ProjectileMovementComponent->Velocity = ShootingDir * ProjectileMovementComponent->InitialSpeed;
 }
 
+void AProjectileA4::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
+{
+	//반대방향으로 가속. 탄성에 의해 원래는 '반사'방향으로 튕겨나가지만 이를 통해 정확히 '반대'방향으로만 가속할 수 있다.
+	ProjectileMovementComponent->Velocity = ProjectileMovementComponent->Velocity * -1;
+}

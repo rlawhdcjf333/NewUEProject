@@ -49,4 +49,7 @@ public:
 	//발사함수
 	void Fire(const FVector& ShootingDir);
 
+	//충돌 이벤트 콜백
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
 };

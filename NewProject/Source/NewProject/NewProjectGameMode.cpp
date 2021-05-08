@@ -16,24 +16,15 @@ ANewProjectGameMode::ANewProjectGameMode()
 
 void ANewProjectGameMode::BeginPlay()
 {
-	Super::BeginPlay();
-	ChangeMenuWidget(StartingWidgetClass);
-}
+	//클래스 안전성 검사
+	if (IsValid(WidgetClass))
+	{
+		MyUI = Cast<UMyUserWidget>(CreateWidget(GetWorld(), WidgetClass));
+		if (MyUI != nullptr)
+		{
+			//뷰포트에 추가
+			MyUI->AddToViewport();
+		}
+	}
 
-void ANewProjectGameMode::ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass)
-{
-    if (CurrentWidget != nullptr)
-    {
-        CurrentWidget->RemoveFromViewport();
-        CurrentWidget = nullptr;
-    }
-
-    if (NewWidgetClass != nullptr)
-    {
-        CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), NewWidgetClass);
-        if (CurrentWidget != nullptr)
-        {
-            CurrentWidget->AddToViewport();
-        }
-    }
 }
